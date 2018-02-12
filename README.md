@@ -1,1 +1,99 @@
 # py-practice
+Compare Python with Node.js
+
+all Node.js knowledge is in ()
+# basic
+- list (array)
+	- method:insert() /pop()
+
+	>>> namelist = ['Deng', 'Wei']
+	>>> namelist[0]
+	'Deng'
+	>>> namelist[1]
+	'Wei'
+	>>> namelist[2]
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	IndexError: list index out of range
+	>>> namelist[-1]
+	'Wei'
+
+- tuple (more than **const array**  --- Object.freeze)
+
+	>>> nametuple=('Deng','Wei')
+	>>> nametuple[0]
+	'Deng'
+	>>> nametuple[2]
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	IndexError: tuple index out of range
+	>>> nametuple[-1]
+	'Wei'
+	>>> nametuple[-1]='Wei2'
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: 'tuple' object does not support item assignment
+
+- 	dict (json key-value)
+	
+	>>> IDNamedict={'001':'dengwei','002':'david','003':'wade'}
+	>>> IDNamedict['001']
+	'dengwei'
+	>>> IDNamedict['004']
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	KeyError: '004'
+
+- 	set(Set)
+- 	generator(generator)
+- 	isinstance/type(type of)
+ 	
+	>>> isinstance(namelist,list)
+	True
+	>>> isinstance(namelist,tuble)
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	NameError: name 'tuble' is not defined
+	>>> isinstance(namelist,tuple)
+	False
+	>>> type(namelist)
+	<class 'list'>
+	>>> type(namelist) is list
+	True
+
+# class
+- inheritance(father) (vs extends)
+	
+	class Bird(Animal):
+	    pass
+
+- multiple inheritance(mixin： Object.assign(obj.prototype,mixin   mixwith.js)) 
+	
+	class MyUDPServer(UDPServer, ThreadingMixIn):
+	    pass
+
+# package install
+- https://pypi.python.org (npmjs.org)
+- install command: easy_install/pip (npm )
+- pip3 install -r requirements.txt (npm i)
+    -  pip3 install gunicorn (npm install lodash)
+# unittest
+- package : unitest(mocha)
+- run command
+    - $python3 test_xx.py 
+        - 留意
+            - 名字命名要 以test_ 开头，class 内的函数 以 test_xx 开头
+            - class TestXXX(unittest.TestCase)
+    - $python3 -m unittest discover test # test 目录自发现
+    - mock(nock)
+
+	from mock import MagicMock
+	thing = ProductionClass()
+	thing.method = MagicMock(return_value=3)
+	self.assertEqual(thing.method(), 3)
+	
+web framework:
+- flask(expressjs) 
+    - [demo](https://github.com/no7dw/py-practice/tree/master/flask-demo)
+    - FLASK_DEBUG=1 FLASK_APP=hello-world.py flask run (node-dev/nodemon)# auto reload 
+    - 
