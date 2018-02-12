@@ -67,7 +67,7 @@ all Node.js knowledge is in ()
 	class Bird(Animal):
 	    pass
 
-- multiple inheritance(mixin： Object.assign(obj.prototype,mixin   mixwith.js)) 
+- multiple inheritance(mixin： Object.assign(obj.prototype,mixin   [mixwith.js](https://github.com/justinfagnani/mixwith.js))) 
 	
 	class MyUDPServer(UDPServer, ThreadingMixIn):
 	    pass
@@ -91,9 +91,34 @@ all Node.js knowledge is in ()
 	thing = ProductionClass()
 	thing.method = MagicMock(return_value=3)
 	self.assertEqual(thing.method(), 3)
+
+# decorator
+- some only in ts
+
+# important internal package
+
+# import 3rd package
+
+# data processing
+- package
+	- pydash(lodash)
+	- panda(more than mathjs)
+
+# async 
+- async/await(async/await)
+	- package
+		-  asyncio
+		-  aiohttp
+		-  threading
+
+# db
+- package
+	-  mysql-connector-python/mysql-connector(sequelize)
+	-  pymongo(mongoose)
 	
-web framework:
+# web framework:
 - flask(expressjs) 
     - [demo](https://github.com/no7dw/py-practice/tree/master/flask-demo)
     - FLASK_DEBUG=1 FLASK_APP=hello-world.py flask run (node-dev/nodemon)# auto reload 
     - 
+
