@@ -1,4 +1,3 @@
-# py-practice
 Compare Python with Node.js
 
 all Node.js knowledge is in ()
@@ -78,19 +77,25 @@ all Node.js knowledge is in ()
 - pip3 install -r requirements.txt (npm i)
     -  pip3 install gunicorn (npm install lodash)
 # unittest
-- package : unitest(mocha)
-- run command
-    - $python3 test_xx.py 
-        - 留意
-            - 名字命名要 以test_ 开头，class 内的函数 以 test_xx 开头
-            - class TestXXX(unittest.TestCase)
-    - $python3 -m unittest discover test # test 目录自发现
-    - mock(nock)
+- package 
+	-  unitest(mocha)	-- internal package
+		- run command
+		    - $python3 test_xx.py 
+		        - 留意
+		            - 名字命名要 以test_ 开头，class 内的函数 以 test_xx 开头
+		            - class TestXXX(unittest.TestCase)
+		    - $python3 -m unittest discover test # test 目录自发现
+		    - mock(nock)
+		
+			from mock import MagicMock
+			thing = ProductionClass()
+			thing.method = MagicMock(return_value=3)
+			self.assertEqual(thing.method(), 3)
+	- pytest(mocha)  -- 3rd testing framework
+		- run command
+			
+			py.test
 
-	from mock import MagicMock
-	thing = ProductionClass()
-	thing.method = MagicMock(return_value=3)
-	self.assertEqual(thing.method(), 3)
 
 # decorator
 - some only in ts
@@ -121,4 +126,3 @@ all Node.js knowledge is in ()
     - [demo](https://github.com/no7dw/py-practice/tree/master/flask-demo)
     - FLASK_DEBUG=1 FLASK_APP=hello-world.py flask run (node-dev/nodemon)# auto reload 
     - 
-

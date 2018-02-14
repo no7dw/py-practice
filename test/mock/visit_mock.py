@@ -13,5 +13,5 @@ class TestClient(unittest.TestCase):
         fail_send = mock.Mock(return_value='404')
         client.send_request = fail_send
         self.assertEqual(client.visit(URL), '404')
-if __name__ == '__main__':
-    unittest.main()        
+# if __name__ == '__main__':
+#     unittest.main()        

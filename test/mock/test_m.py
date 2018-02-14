@@ -10,6 +10,6 @@ class TestT(unittest.TestCase):
         thing.method.assert_called_with(3, 4, 5, key='value')
         self.assertEqual(thing.method(), 3)
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
 
