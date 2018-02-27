@@ -91,7 +91,7 @@ all Node.js knowledge is in ()
 			thing = ProductionClass()
 			thing.method = MagicMock(return_value=3)
 			self.assertEqual(thing.method(), 3)
-	- pytest(mocha)  -- 3rd testing framework
+	- py.test(mocha)  -- 3rd testing framework
 		- run command
 			
 			py.test
