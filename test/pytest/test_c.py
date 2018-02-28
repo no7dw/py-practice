@@ -17,7 +17,6 @@ class TestClass:
         (3, 9),
     ])        
     def test_square(self, data, result):
-        print("abc")
         assert result == square(data)
 
             
