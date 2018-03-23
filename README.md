@@ -95,6 +95,10 @@ all Node.js knowledge is in ()
 		- run command
 			
 			py.test
+		- test case
+			
+			- 使用 @pytest.mark.parametrize 初始参数化test case 的参数
+			- 使用 (teardown_class/teardown_module、setup_class/setup_module)[https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown]	 来做准备工作&销毁工作
 
 
 # decorator
