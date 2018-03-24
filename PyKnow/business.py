@@ -30,8 +30,3 @@ engine.declare(ua)
 engine.run()   
 print(engine.result())
 
-ub = User(enterNetworkTimes=798, bqsThreeMonthMPL=5)
-engine.reset()
-engine.declare(ub)
-engine.run()
-print(engine.result())
