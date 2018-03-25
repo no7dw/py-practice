@@ -3,7 +3,7 @@ Compare Python with Node.js
 all Node.js knowledge is in ()
 # basic
 - list (array)
-	- method:insert() /pop()
+	- method:insert() /pop() / 直接赋值update
 
 	>>> namelist = ['Deng', 'Wei']
 	>>> namelist[0]
@@ -17,8 +17,9 @@ all Node.js knowledge is in ()
 	>>> namelist[-1]
 	'Wei'
 
-- tuple (more than **const array**  --- Object.freeze)
 
+- tuple (more than **const array**  --- Object.freeze)
+	
 	>>> nametuple=('Deng','Wei')
 	>>> nametuple[0]
 	'Deng'
@@ -34,7 +35,8 @@ all Node.js knowledge is in ()
 	TypeError: 'tuple' object does not support item assignment
 
 - 	dict (json key-value)
-	
+	- method:pop() /直接赋值update/赋值新的key value
+
 	>>> IDNamedict={'001':'dengwei','002':'david','003':'wade'}
 	>>> IDNamedict['001']
 	'dengwei'
@@ -42,8 +44,11 @@ all Node.js knowledge is in ()
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	KeyError: '004'
+	>>> IDNamedict['004']='xxx'
 
 - 	set(Set)
+	- method:add() /del()
+
 - 	generator(generator)
 - 	isinstance/type(type of)
  	
