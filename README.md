@@ -130,3 +130,10 @@ all Node.js knowledge is in ()
     - [demo](https://github.com/no7dw/py-practice/tree/master/flask-demo)
     - FLASK_DEBUG=1 FLASK_APP=hello-world.py flask run (node-dev/nodemon)# auto reload 
     - 
+
+from python2.7 to python3
+	causion: may need to handle somelib version change
+
+	`
+		2to3 2.py -w 
+	`
