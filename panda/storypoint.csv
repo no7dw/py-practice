@@ -1,0 +1,328 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field ( when figure it out why),Custom field (BusinessValue),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimated Time(h)),Custom field (Rank),Sprint,Sprint,Sprint,Sprint,Custom field (Story Points),Custom field (effect),Custom field (how to avoid),Custom field (reason),Custom field (solved time(actual)),Custom field (solved time(estimated)),Custom field (spokesperson(dev)),Custom field (spokesperson(mkt)),Custom field (when found (dev)),Custom field (when found (mkt)),Comment,Comment,Comment,Comment
+"投资 -- 修改现有收支逻辑, 对每次还款 的 计息天数, 计息开始日期, 计息本金, 计息利率 进行保存 ",KINVEST-860,20994,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Alex,Alex,22/Nov/17 12:26 PM,27/Nov/17 12:13 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 修改现有收支逻辑, 对每次还款 的 计息天数, 计息开始日期, 计息本金, 计息利率 进行保存 :
+     利息保留 四位小数. 小v要求",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|hzzxp0:,sprint 11-27,,,,10.0,,,,,,,,,,,,,
+"投资 -- 修复 p2p订单 汇总数据 提前还款 数据为0, 没有显示 正确数值",KINVEST-840,20822,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,Alex,Alex,Alex,18/Nov/17 11:39 PM,27/Nov/17 12:13 PM,27/Nov/17 12:34 PM,27/Nov/17 9:57 AM,,0,,,"投资 -- 修复 p2p订单 汇总数据 提前还款 数据为0, 没有显示 正确数值",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013q5:,sprint 11-27,,,,0.5,,,,,,,,,,,,,
+"投资-- 完善 开发管理 直投订单显示, 以便开发可以清晰 看到订单状态",KINVEST-889,21259,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,Alex,Alex,Alex,25/Nov/17 2:53 PM,27/Nov/17 9:56 AM,27/Nov/17 12:34 PM,27/Nov/17 9:56 AM,,0,,,"投资-- 完善 开发管理 直投订单显示, 以便开发可以清晰 看到订单状态",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013qc:,sprint 11-27,,,,1.5,,,,,,,,,,,,,
+"投资--清算人员可以在企业管理---订单列表看到各个订单类型的「本金」和「投资者利息」, 考拉服务费 ，以便做清算汇总",KINVEST-873,21101,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Jolen,Jolen,23/Nov/17 6:33 PM,25/Nov/17 6:23 PM,27/Nov/17 12:34 PM,,,0,,,,,Jolen,,,,,,,,,,,,,,KINVEST-16,,,,0|i013pz:,sprint 11-27,,,,2.0,,,,,,,,,,24/Nov/17 5:14 PM;Jolen;确认在  P2P订单--订单列表  中增加三个汇总字段「本金」、「投资者利息」、「考拉服务费」，汇总字段过多则换行。,,,
+投资 -- 完善 达飞计息天数规则,KINVEST-801,20264,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Alex,Alex,08/Nov/17 4:04 PM,24/Nov/17 9:33 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 完善 达飞计息天数规则:
+      现达飞计息天数规则错误, 应使用上一次企业还代偿日期进行计算, 
+      示例标的: 59965b0a43a5e20016af96bd",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|hzzxqa:,sprint 11-27,,,,8.0,,,,,,,,,,,,,
+达飞计息规则错误,KINVEST-800,20263,,Bug,In Progress,KINVEST,KINVEST,software,admin,,,High,,Alex,Micy,Micy,08/Nov/17 4:02 PM,24/Nov/17 9:33 PM,27/Nov/17 12:34 PM,,,0,,,达飞计息规则错误,,Micy,,,,,,,,,,,,,,,,,,0|hzzxoy:,sprint 11-27,,,,,,,,,,,,,,,,,
+"直投 -- 修改 现有任务框架, 各个平台可以配置对应任务 定时运行时间, 时间可以是对个,  满足平台 需求",KINVEST-839,20819,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Alex,Alex,18/Nov/17 11:08 AM,24/Nov/17 7:36 PM,27/Nov/17 12:34 PM,,,0,,,"直投 -- 修改 现有任务框架, 各个平台可以配置对应任务 定时运行时间, 时间可以是对个,  满足平台 需求",,Alex,,,,,,,,,,,,,,KINVEST-15,,,,0|hzzxpy:,sprint 11-27,,,,4.0,,,,,,,,,,,,,
+投资--清算人员可以在企业管理--订单列表 看到各个订单类型正确的汇总「总金额」，以便做清算汇总,KINVEST-872,21100,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Jolen,Jolen,23/Nov/17 6:31 PM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,Jolen,,,,,,,,,,,,,,,,,,0|i013px:i,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+考拉可以配合什马金融的文档沟通，回答技术问题，以对接该平台,KINVEST-879,21235,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,hank,hank,24/Nov/17 5:34 PM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i013dc:zu,sprint 11-27,,,,8.0,,,,,,,,,,,,,
+dev可以有什马金融对接的总体设计方案，以对接平台,KINVEST-881,21237,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,hank,hank,24/Nov/17 5:37 PM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i013dc:zt,sprint 11-27,,,,3.0,,,,,,,,,,,,,
+"P2P - 添加 修改企业信息接口, 以便合作企业可以修改企业信息",KINVEST-793,20176,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Alex,Alex,06/Nov/17 10:35 PM,24/Nov/17 2:09 PM,27/Nov/17 12:34 PM,,,0,,,"P2P - 添加 修改企业信息接口, 以便合作企业可以修改企业信息",,Alex,,,,,,,,,,,,,,,,,,0|hzzxq6:,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+"投资 -- 完善 企业管理, 添加 企业信息修改功能, 满足企业信息修改需求",KINVEST-731,19361,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Alex,Alex,Alex,19/Oct/17 5:52 PM,24/Nov/17 2:09 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 完善 企业管理, 添加 企业信息修改功能, 满足企业信息修改需求",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|hzzxqe:,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+Wap - 用户在【余额自动投资】界面设置“余额保留金额”，不需要设置投资上限（余额自动投资范围→余额保留金额）,KAPP-1822,21229,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,Lynn,Lynn,24/Nov/17 4:35 PM,24/Nov/17 4:35 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i013o1:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+Wap- 用户的VIP等级升级后，可以在购买成功页看到popup，以便加强用户的荣誉感,KAPP-1820,21226,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,Lynn,Lynn,24/Nov/17 4:34 PM,24/Nov/17 4:34 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i013nl:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+Wap- 推广可以在充值并购买完成页可配置button文案和跳转链接，以完善活动闭环,KAPP-1819,21225,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,Lynn,Lynn,24/Nov/17 4:33 PM,24/Nov/17 4:34 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i013nd:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+WAP-用户参与21天转赚转活动后的订单，可以看到更清晰的订单进度和展示,KAPP-1794,21124,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,juna,juna,24/Nov/17 11:10 AM,24/Nov/17 4:17 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012t0:,Sprint 11.27-12.01,,,,5.0,,,,,,,,,,,,,
+用户在转赚转的产品的进行中的订单，还是可以看到已经刚结束上一轮的订单,KAPP-1761,20946,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,juna,juna,21/Nov/17 3:25 PM,24/Nov/17 3:31 PM,27/Nov/17 12:34 PM,,,0,,,"父订单显示：已结算---投资中，查看已结算订单
+（时间取最近一笔本金回款的月份）
+投资本金（取购买本金）
+已获收益（累计每一笔本金带来的收益）
+
+子订单显示：跟普通订单一样即可",,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012sw:,Sprint 11.27-12.01,,,,5.0,,,,,,,,,,,,,
+用户在转赚转产品的订单结束后可以看到已结算的订单的明细,KAPP-1760,20945,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,brady_z,juna,juna,21/Nov/17 3:24 PM,24/Nov/17 3:29 PM,27/Nov/17 12:34 PM,,,0,,,"父订单显示：
+（时间取最后一笔本金回款的月份）
+投资本金（取购买本金）
+已获收益（累计每一笔本金带来的收益）
+
+子订单显示：跟原来的保持一致即可",,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012sv:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+11-25 反馈回款日历点击之后黑屏闪退，其他页面正常（三星）,KAPP-1826,21257,,Bug,Done,KAPP,KAPP,software,admin,,,Highest,Done,duke,cici,cici,25/Nov/17 10:15 AM,27/Nov/17 11:57 AM,27/Nov/17 12:34 PM,27/Nov/17 11:57 AM,,0,界面显示,,"13611222181
+问题原因：api不兼容android低版本
+如何解决：改api实现方式
+解决时间：已修复
+影响范围：周五晚上升级的android 4.3以下用户
+如何避免：上线前测试各个版本的显示状态",,cici,,,,,,,,,,,,,,,,,,0|i013sp:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+Android-用户参与21天转赚转活动后的订单，可以看到更清晰的订单进度和展示,KAPP-1793,21123,,Story,In Progress,KAPP,KAPP,software,admin,,,Highest,,duke,juna,juna,24/Nov/17 11:09 AM,27/Nov/17 9:59 AM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012tb:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+android - 用户可以使用app 3.9.0,KAPP-1705,20695,,Story,Done,KAPP,KAPP,software,admin,,,Medium,Done,duke,duke,duke,16/Nov/17 3:06 PM,27/Nov/17 9:14 AM,27/Nov/17 12:34 PM,27/Nov/17 9:13 AM,,0,,,,,duke,,,,,,,,,,,,,,,,,,0|i011c4:r,Sprint 11.20-11.24,Sprint 11.27-12.01,,,1.0,,,,,,,,,,,,,
+android - 【资金规划功能】用户可以在汇总回款金额的页面，看到投资建议（某段时间可以继续投资短期产品哦）,KAPP-1803,21161,,Story,To Do,KAPP,KAPP,software,admin,,,High,,duke,duke,duke,24/Nov/17 2:26 PM,24/Nov/17 4:29 PM,27/Nov/17 12:34 PM,,,0,,,,,duke,,,,,,,,,,,,,,KAPP-1810,,,,0|i013bl:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+android - 用户在【余额自动投资】界面设置“余额保留金额”，不需要设置投资上限（余额自动投资范围→余额保留金额）,KAPP-1802,21156,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,duke,duke,duke,24/Nov/17 2:22 PM,24/Nov/17 3:28 PM,27/Nov/17 12:34 PM,,,0,,,,,duke,,,,,,,,,,,,,,,,,,0|i013ah:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+android - 用户可以在APP更换银行卡，无需解绑后再次绑定,KAPP-1801,21153,,Story,To Do,KAPP,KAPP,software,admin,,,Lowest,,duke,duke,duke,24/Nov/17 2:15 PM,24/Nov/17 3:02 PM,27/Nov/17 12:34 PM,,,0,,,,,duke,,,,,,,,,,,,,,,,,,0|i013a1:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+android - 用户的VIP等级升级后，可以在购买成功页看到popup，以便加强用户的荣誉感,KAPP-1799,21151,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,duke,duke,duke,24/Nov/17 2:13 PM,24/Nov/17 2:13 PM,27/Nov/17 12:34 PM,,,0,,,,,duke,,,,,,,,,,,,,,,,,,0|i0139l:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+android - 推广可以在充值并购买完成页可配置button文案和跳转链接，以完善活动闭环,KAPP-1798,21150,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,duke,duke,duke,24/Nov/17 2:12 PM,24/Nov/17 2:12 PM,27/Nov/17 12:34 PM,,,0,,,,,duke,,,,,,,,,,,,,,,,,,0|i0139d:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+整体流程自测调整,KAC-892,21184,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,24/Nov/17 2:56 PM,27/Nov/17 10:26 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013n7:,KAC——2017-11-27,,,,3.0,,,,,,,,,,,,,
+自测报名 + 创建战队 + 组队 等逻辑,KAC-906,21269,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,27/Nov/17 10:06 AM,27/Nov/17 10:25 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013n9:,KAC——2017-11-27,,,,3.0,,,,,,,,,,,,,
+用户可以在查看我的战队页面查看当前所属战队,KAC-905,21268,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,27/Nov/17 10:05 AM,27/Nov/17 10:25 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013bg:,KAC——2017-11-27,,,,1.0,,,,,,,,,,,,,
+查看我的奖励,KAC-890,21182,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,24/Nov/17 2:55 PM,27/Nov/17 10:25 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013bf:,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+用户选择皮肤页,KAC-891,21183,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,24/Nov/17 2:56 PM,27/Nov/17 10:25 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013be:,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+新老用户皮肤0元购页面,KAC-889,21181,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,Fernando,Fernando,24/Nov/17 2:55 PM,27/Nov/17 10:25 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,,,,,,,,,,,,,,KAC-875,,,,0|i013bd:r,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+前端——疯狂加息联调,KAC-899,21224,,Story,In Progress,KAC,KActivity,software,admin,,,Highest,,Fernando,tina,tina,24/Nov/17 4:33 PM,27/Nov/17 9:34 AM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i013n5:,KAC——2017-11-27,,,,1.0,,,,,,,,,,,,,
+前端——运营希望24号重新上线打考拉活动，修改奖励和概率,KAC-870,21059,,Story,To Do,KAC,KActivity,software,admin,,,Low,,Fernando,Sandy,Sandy,23/Nov/17 12:02 PM,24/Nov/17 4:31 PM,27/Nov/17 12:34 PM,,,0,,,https://docs.google.com/spreadsheets/d/1yakEvaJJuIHiMDotFIYKLojg_TxB42UeBms-LnaU09I/edit#gid=2000172111,,Sandy,,,,,,,,,,,,,,,,,,0|i012r9:,KAC——2017-11-27,,,,6.0,,,,,,,,,,,,,
+前端——为了提高活动的灵活性，活动上线&下线时间，奖励参数等在管理后台可配置,KAC-38,10647,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,Fernando,tina,tina,29/Mar/17 3:10 PM,24/Nov/17 2:50 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i0130d:,KAC——2017-11-27,,,,13.0,,,,,,,,,,,,,
+11.29前端-VIP特权【2】-签到宝箱奖励翻倍—becky,KAC-818,20291,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,Fernando,becky,becky,09/Nov/17 11:53 AM,24/Nov/17 11:52 AM,27/Nov/17 12:34 PM,,,0,,,"https://docs.google.com/spreadsheets/d/1ugCvSq9_CUmTwQhtjxYNb0F90CFcYMjnDY6ZyRF4oTA/edit#gid=1662815420
+
+checklist(在P57-P87行)：
+https://docs.google.com/spreadsheets/d/1Qqk6rh_s82hakFju0MAAwQ9vvY8K12B3RpXPA4STaVw/edit#gid=248360219",,becky,,,,,,,,,,,,,,,,,,0|i011eb:i,KAC——2017-11-27,,,,4.0,,,,,,,,,,,,,
+借款企业收到放款之后，可以有合同签署,KINVEST-843,20839,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,hank,hank,hank,20/Nov/17 9:59 AM,24/Nov/17 7:40 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|hzzxou:,sprint 11-27,,,,4.0,,,,,,,,,,,,,
+"投资 -- 修复 选择平台,  部分平台无法显示出来, 输入名称也无法定位到该平台 bug",KINVEST-815,20501,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,13/Nov/17 4:09 PM,24/Nov/17 7:39 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 修复 选择平台,  部分平台无法显示出来, 输入名称也无法定位到该平台 bug",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:x,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+"投资 -- 去除 标的管理 利息显示, 单挑利息 汇总利息",KINVEST-863,21024,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,22/Nov/17 6:06 PM,24/Nov/17 7:38 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 去除 标的管理 利息显示, 单挑利息 汇总利息:
+      eric: 这个P2P的note表不用看的  那个只是Nick统一以那个到期还本计算出来的 实际上没使用",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:zv,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+"投资 -- 优化 投资汇总 平台查询 数据排序方式, 使用代收本金进行排序",KINVEST-841,20823,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,18/Nov/17 11:42 PM,24/Nov/17 7:38 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 优化 投资汇总 平台查询 数据排序方式, 使用代收本金进行排序",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:zx,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+"投资 -- 修复 直投管理 查询 详情 无法访问图片url时, 无法关闭 详情窗口url",KINVEST-820,20548,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,14/Nov/17 6:01 PM,24/Nov/17 7:37 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 修复 直投管理 查询 详情 无法访问图片url时, 无法关闭 详情窗口url",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:y,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+投资-excel下载功能，身份证号与手机号码需要脱敏，除了root权限,KINVEST-637,18223,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,zack,zack,18/Sep/17 6:43 PM,24/Nov/17 7:36 PM,27/Nov/17 12:34 PM,,,0,,,,,Jolen,zack,,,,,,,,,,,,,KINVEST-16,,,,0|i013db:,sprint 11-27,,,,2.0,,,,,,,,,,"24/Nov/17 5:26 PM;Jolen;手机信息脱敏格式：135****4568
+身份证号脱敏格式：4**************127
+注：14个「*」",,,
+dev可以在1000个标的没有上传影像资料时收到微信 报警,KINVEST-854,20935,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,hank,hank,21/Nov/17 11:58 AM,24/Nov/17 7:36 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i012gl:,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+投资后台可以有地方查询到新旧系统的累计交易额，区分企业借款、三农贷款和个人借款，以及贷款余额,KINVEST-799,20262,,Story,To Do,KINVEST,KINVEST,software,admin,,,High,,hank,hank,hank,08/Nov/17 4:01 PM,24/Nov/17 6:05 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i012f9:,sprint 11-27,,,,3.0,,,,,,,,,,,,,
+本周总结 week summary,KINVEST-852,20915,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,hank,hank,20/Nov/17 6:37 PM,24/Nov/17 6:04 PM,27/Nov/17 12:34 PM,,,0,,,"整体状态为中
+上周工作：
+1、我来贷 上线还款业务 （以增加资产总量） (0.8)
+2、智能-点晴 跟进上线跑量 （以增加资产总量） (0) 
+3、融360 完成测试阶段,完成上线跑量 （以增加资产总量） (1)
+4、信牛科技 跟进内部标代偿业务,完成上线跑量 （以增加资产总量） (1)
+5、投哪网	跟进投哪网测试 （以增加资产总量） (1)
+6、投资后台按时间 重建，（以方便修复更改规则的数据） (1)
+7、对接p2p代偿接口，完善投资后台代偿方式的收支管理 （以减轻考拉资金压力，减轻清算对账压力）(1)
+
+本周重点
+- 投哪网 上线测试内部标, 以增加资产总量 (Rowland)
+- 什马金融 完成文档沟通与总体设计，以上线该平台，增加资产量 (Alex)
+- 钱兔 完成文档沟通与总体设计，以上线该平台，增加资产量 (Rowland)
+- 保证签章签署成功，修复历史签署失败的问题，以保证合同数据正确性(White)
+- 各平台可以配置不同时间进行批量扣款，以保证平台对接稳定性 (Alex)
+- 合作企业可以在投资后台修改企业信息，以保证达飞可以修改自己错误的信息(Alex)
+
+",,hank,,,,,,,,,,,,,,,,,,0|hzzxpu:,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+"投资 -- 为 直投管理 风控 添加 查询功能, 标的名称, 标的id 等等",KINVEST-825,20580,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,15/Nov/17 10:49 AM,24/Nov/17 5:31 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 为 直投管理 风控 添加 查询功能, 标的名称, 标的id 等等",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:z,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+"投资 -- 完善企业管理 --企业列表, 添加平台名称显示, 订单列表 添加 支付公司 显示, 银行显示, 不显示银行编码",KINVEST-773,19995,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,Alex,Alex,02/Nov/17 5:05 PM,24/Nov/17 5:30 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 完善企业管理 --企业列表, 添加平台名称显示, 订单列表 添加 支付公司 显示, 银行显示, 不显示银行编码",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:i,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+直投-直投管理审核界面的字段显示，可以做到字段顺序固定，以便风控审核时，提高观察效率,KINVEST-61,11412,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,hank,zack,zack,24/Apr/17 11:28 AM,24/Nov/17 5:29 PM,27/Nov/17 12:34 PM,,,0,,,,,zack,,,,,,,,,,,,,,KINVEST-16,,,,0|i013d9:,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+优化还款订单，借款人还款或代偿成功，根据P2P带过来的投资者实际还款时间生成订单，避免还款通知延时造成用户流水顺序不对,KAPP-1735,20781,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,jamie,jamie,17/Nov/17 2:46 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,jamie,,,,,,,,,,,,,,,,,,0|i011rk:d,Sprint 11.20-11.24,Sprint 11.27-12.01,,,2.0,,,,,,,,,,,,,
+用户参与21天转赚转活动后的订单，可以看到更清晰的订单进度和展示,KAPP-1791,21121,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,juna,juna,24/Nov/17 11:09 AM,24/Nov/17 4:38 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012t8:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+后端 - 用户的VIP等级升级后，可以在购买成功页看到popup，以便加强用户的荣誉感,KAPP-1813,21213,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,jamie,jamie,24/Nov/17 3:31 PM,24/Nov/17 4:15 PM,27/Nov/17 12:34 PM,,,0,,,,,jamie,,,,,,,,,,,,,,,,,,0|i012zj:,Sprint 11.27-12.01,,,,6.0,,,,,,,,,,,,,
+用户当天购买当天回款后，可以在产品份额不足的情况下由系统发起购买,KAPP-1762,20948,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,amanda,amanda,21/Nov/17 3:48 PM,24/Nov/17 4:09 PM,27/Nov/17 12:34 PM,,,0,,,,,amanda,,,,,,,,,,,,,,,,,,0|i0110d:39,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+用户在开启自动投资后，系统会帮用户购买普通产品，而不会买到复投的产品,KAPP-1781,21092,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,juna,juna,23/Nov/17 6:17 PM,24/Nov/17 3:13 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,,,,,0|i012zh:,Sprint 11.27-12.01,,,,1.0,,,,,,,,,,,,,
+用户参加21天转赚转活动，当用户的本金投资完6次后，不再进入下一轮复投，而是陆续回到用户的余额,KAPP-1790,21120,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,jamie,juna,juna,24/Nov/17 11:01 AM,24/Nov/17 3:13 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012t4:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+(只转6轮)用户可以在挖宝看到21天转赚转的banner，点击进去看到活动页面，可以参与活动,KAPP-1716,20748,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,jump,juna,juna,17/Nov/17 11:11 AM,27/Nov/17 10:20 AM,24/Nov/17 5:43 PM,,,0,,,"https://docs.google.com/spreadsheets/d/18xwWE4GV0mfsHEucKPFf_gP_nmXIGLFJb-7w7SRy5MQ/edit#gid=1674738957
+
+1. 订单金额需要大于等于1000元，否则吐司提示：订单金额须大于等于1000元。
+2. 购买页默认金额1000元。
+3. 份额没有了button变为灰色，文案变为“售罄”用户点击之后吐司“产品今日已售磬，下次再来吧”
+
+表格只写到6次就好了。
+
+规则（规则不要按UI图，按下面的文字来）
+1. 投资1000元起。
+2. 如何计息：
+    用户将按照匹配的实际债权的回款时间收到利息，计息利率以本金投资的次数为准。
+    本金由系统自动复投，进入下一轮投资。
+3. 如何退出：
+    用户可在订单明细页面提出申请。
+    申请后，所有本金按照实际债权的回款计划，自动打回用户余额并结清利息，本金不再复投。
+4. 本活动不可使用加息券。",,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i013p9:,Sprint 11.27-12.01,,,,6.0,,,,,,,,,,23/Nov/17 4:29 PM;juna;U:\金融项目\投资app\V3.3.0\21天转赚转,"23/Nov/17 11:02 PM;juna;渠道号：21round
+埋点：21转赚转_点击_立即投资",,
+用户不能参加21+21的活动，界面刷不出来产品列表，1个用户买完没有加息,KAPP-1836,21284,,Bug,To Do,KAPP,KAPP,software,admin,,,Medium,,juna,juna,juna,27/Nov/17 11:13 AM,27/Nov/17 11:13 AM,27/Nov/17 12:34 PM,,,0,,,"问题原因：产品配置的时间点，没有跟活动页面的配置时间点一致。
+如何解决：管理后台时间配置改为一致
+解决时间：已修复
+影响范围：周五晚上19:40-21:30
+如何避免：以后配置的时间点务必一致。",,juna,,,,,,,,,,,,,,,,,,0|i013sl:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+迁移9000个用户,KAPP-1816,21218,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,ruanzhijun,ruanzhijun,24/Nov/17 3:47 PM,27/Nov/17 11:17 AM,27/Nov/17 12:34 PM,,,0,,,根据共享盘的计划来,,ruanzhijun,,,,,,,,,,,,,,,,,,0|i013m1:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+【删掉！！】本周安排迁移剩余10元以上的用户—becky,KAPP-1829,21272,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,becky,becky,27/Nov/17 10:27 AM,27/Nov/17 11:17 AM,27/Nov/17 12:34 PM,,,0,,,M:\公测数据统计\提交给技术的迁移名单,,becky,,,,,,,,,,,,,,,,,,0|i013st:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+"用户 ""13250146425"" 代充值提示  “由于网络系统的原因,您暂时无法使用当前的服务,请稍候再试 ” 问题处理",KAPP-1833,21277,,Bug,In Progress,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,zmliu,zmliu,27/Nov/17 10:44 AM,27/Nov/17 10:48 AM,27/Nov/17 12:34 PM,,,0,,,,,zmliu,,,,,,,,,,,,,,,,,,0|i013sv:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+【资金规划功能】用户可以选择时间段，系统自动计算出总回款金额（区分省心宝、新手+普通产品）,KAPP-1784,21098,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,Lynn,Lynn,23/Nov/17 6:30 PM,27/Nov/17 9:43 AM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,KAPP-1810,,,,0|i0130l:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+为了提高p2p准确性，需完善klg-p2p测试用例  资产部分(链接看Description),KAPP-1424,19301,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,navy,navy,18/Oct/17 4:15 PM,27/Nov/17 9:43 AM,27/Nov/17 12:34 PM,,,0,,,,,navy,,,,,,,,,,,,,,,,,,0|i013pb:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,18/Oct/17 4:19 PM;navy;需要补充的测试用例链接：https://docs.google.com/spreadsheets/d/1RX4W50QYYZhGpbEGnXwNxnCO1d5I9oGgi3zducmfAaw/edit#gid=1281251816 ，具体不清晰的咨询Eric,,,
+运营可以通过预警信息及时了解注册和支付异常,KAPP-1751,20913,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,amanda,amanda,20/Nov/17 6:18 PM,24/Nov/17 4:12 PM,27/Nov/17 12:34 PM,,,0,,,文档第9行和第16行https://docs.google.com/spreadsheets/d/1mM6KhShNwdygS_WNnrZn-Bib_AWA6zgSy0q8PBRyQck/edit#gid=1493138283,,amanda,,,,,,,,,,,,,,,,,,0|i01164:i,Sprint 11.27-12.01,,,,2.0,,,,,,,,,,,,,
+用户匹配债权后并该债权放款成功后，当天借款人还款，系统可自动购买同一产品并使用券,KAPP-1419,19236,,Story,To Do,KAPP,KAPP,software,admin,,,Low,,ruanzhijun,Lynn,Lynn,16/Oct/17 6:49 PM,24/Nov/17 4:11 PM,27/Nov/17 12:34 PM,,,0,,,https://docs.google.com/spreadsheets/d/18xwWE4GV0mfsHEucKPFf_gP_nmXIGLFJb-7w7SRy5MQ/edit#gid=227281628,,Lynn,,,,,,,,,,,,,,KAPP-1376,,,,0|i01163:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+用户能够在3端看到统一的吐司文案,KAPP-803,16206,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,ruanzhijun,Lynn,Lynn,11/Aug/17 1:56 PM,24/Nov/17 3:51 PM,27/Nov/17 12:34 PM,,,0,,,https://docs.google.com/spreadsheets/d/1dJN30ZcTyDEVRbY3ZEA1-NUDeZx9zcKvAlf3f3dA-cI/edit#gid=1667232408,,Lynn,,,,,,,,,,,,,,,,,,0|i01164:,spint 2017.8.14-2017.8.18,spint 2017.8.28-2017.9.1,spint 2017.9.4-2017.9.10,Sprint 11.27-12.01,3.0,,,,,,,,,,,,,
+运营希望只给当天当时账户中没有回款加息券的用户，在回款后余额≥100时发加息券，同时发送push提醒,KAPP-1627,20313,,Story,To Do,KAPP,KAPP,software,admin,,,Highest,,ruanzhijun,Sandy,Sandy,09/Nov/17 12:44 PM,24/Nov/17 3:50 PM,27/Nov/17 12:34 PM,,,0,,,"1）用户在收到回款加息券的时候，收到push
+push内容：回款啦！0.5%加息券让你赚得更爽>>",,Sandy,,,,,,,,,,,,,,KAPP-1376,,,,0|i01161:,Sprint 11.27-12.01,,,,1.0,,,,,,,,,,,,,
+ mongo 备份自动化开发,KIN-761,21222,,Story,To Do,KIN,KIN,software,admin,,,Medium,,kuririn,steven,steven,24/Nov/17 4:13 PM,24/Nov/17 4:14 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,KIN-553,,,,0|i013mx:,2017-11-27,,,,16.0,,,,,,,,,,,,,
+"根据监控值，其他服务，和docker,资源整合。清理多余服务器",KIN-750,21117,,Story,To Do,KIN,KIN,software,admin,,,Medium,,kuririn,steven,steven,24/Nov/17 10:37 AM,24/Nov/17 4:12 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,KIN-40,,,,0|i0133l:,2017-11-27,,,,16.0,,,,,,,,,,,,,
+goose 和 owl 降配（根据监控值合理降配）,KIN-749,21116,,Story,To Do,KIN,KIN,software,admin,,,Medium,,kuririn,steven,steven,24/Nov/17 10:35 AM,24/Nov/17 2:55 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,KIN-40,,,,0|i0133d:,2017-11-27,,,,8.0,,,,,,,,,,"24/Nov/17 10:36 AM;steven;建议减低为 2核8G，或者2核16G。
+",,,
+用户可以在提现页面可以知道提现到账时间(特别是周末),KAPP-1672,20585,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,matrix,Lynn,Lynn,15/Nov/17 10:58 AM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i011w0:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,3.0,,,,,,,,,,"15/Nov/17 2:47 PM;Lynn;1.提现页面的那段话，注明非工作日T+1到账
+
+2.产品直接在管理后台配置提现页面的popup进行提醒",,,
+更新vip等级获取原账户失败需要通知dev,KAPP-1746,20859,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,matrix,matrix,matrix,20/Nov/17 10:46 AM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,matrix,,,,,,,,,,,,,,,,,,0|i011vz:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,4.0,,,,,,,,,,,,,
+产品上架功能的显示条件和购买条件分开，达到某种条件才可买—becky,KAPP-1695,20652,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,matrix,becky,becky,16/Nov/17 10:27 AM,24/Nov/17 6:22 PM,27/Nov/17 12:34 PM,,,0,,,例如全员可见，但LV3等级以上才可买,,becky,,,,,,,,,,,,,,,,,,0|i0110c:gi,Sprint 11.27-12.01,,,,5.0,,,,,,,,,,,,,
+用户可以在APP更换银行卡，无需解绑后再次绑定,KAPP-1669,20582,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,matrix,Lynn,Lynn,15/Nov/17 10:55 AM,24/Nov/17 4:08 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i0110c:gr,Sprint 11.27-12.01,,,,6.0,,,,,,,,,,15/Nov/17 2:51 PM;Lynn;新网有提供一个换卡的接口，可以直接用。,,,
+市场人员可以在后台看到每一个银行卡对应推荐的支付渠道的优先级，并且可以手工调整,KAPP-1632,20320,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,matrix,juna,juna,09/Nov/17 2:25 PM,24/Nov/17 3:14 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1628,,,,0|i0110d:3,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+市场人员可以在管理后台看到每个银行卡在每个支付渠道的限额,KAPP-1631,20319,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,matrix,juna,juna,09/Nov/17 2:24 PM,24/Nov/17 3:14 PM,27/Nov/17 12:34 PM,,,0,,,https://docs.google.com/spreadsheets/d/18xwWE4GV0mfsHEucKPFf_gP_nmXIGLFJb-7w7SRy5MQ/edit#gid=1589336754,,juna,,,,,,,,,,,,,,KAPP-1628,,,,0|i0110d:2,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+借款人提现使用智能T0,KAPP-1787,21103,,Story,Done,KAPP,KAPP,software,admin,,,Medium,Done,nick,Lynn,Lynn,23/Nov/17 6:40 PM,27/Nov/17 10:00 AM,27/Nov/17 12:34 PM,27/Nov/17 10:00 AM,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i011w4:vi,Sprint 11.20-11.24,Sprint 11.27-12.01,,,1.0,,,,,,,,,,,,,
+保证企业代偿正确执行，企业代偿判断余额添加排序锁,KAPP-1738,20789,,Story,Done,KAPP,KAPP,software,admin,,,Medium,Done,nick,nick,nick,17/Nov/17 3:58 PM,27/Nov/17 10:00 AM,27/Nov/17 12:34 PM,27/Nov/17 10:00 AM,,0,,,,,nick,,,,,,,,,,,,,,,,,,0|i011ut:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,6.0,,,,,,,,,,,,,
+"避免P2P用户在系统跟新网的余额不一致,P2P要统计用户的购买冻结金额 ",KAPP-1778,21084,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,zmliu,zmliu,23/Nov/17 4:34 PM,27/Nov/17 9:59 AM,27/Nov/17 12:34 PM,,,0,,,,,zmliu,,,,,,,,,,,,,,,,,,0|i0110d:5,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+优化还款，借款人还款或代偿成功，P2P通知APP时带上每位投资者实际收到还款的时间戳，以便APP根据实际还款时间生成订单,KAPP-1736,20782,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,jamie,jamie,17/Nov/17 2:50 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,jamie,,,,,,,,,,,,,,,,,,0|i011rk:f,Sprint 11.20-11.24,Sprint 11.27-12.01,,,1.0,,,,,,,,,,,,,
+用户上一次交易未完成，再次购买需要等待,KAPP-1472,19495,,Story,To Do,KAPP,KAPP,software,admin,,,Highest,,nick,navy,navy,23/Oct/17 3:20 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,navy,,,,,,,,,,,,,,KAPP-1277,,,,0|i011jo:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,1.0,,,,,,,,,,,,,
+直投系统可以与p2p对账，以保证系统稳定，提前预知数据错误,KAPP-1610,20205,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,hank,hank,07/Nov/17 5:16 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i011rr:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,0.0,,,,,,,,,,,,,
+为了方便数据team 对数，还款订单保存更丰富的还款信息,KAPP-1763,20950,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,nick,nick,21/Nov/17 4:24 PM,24/Nov/17 7:35 PM,27/Nov/17 12:34 PM,,,0,,,,,nick,,,,,,,,,,,,,,,,,,0|i012il:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+数据team可以直接获得标的实际还款期限，要有每个标的投资时间以及结束时间，需要补全历史数据，以便计算考拉收益率，及标的加息利息等,KAPP-1795,21131,,Story,To Do,KAPP,KAPP,software,admin,,,Highest,,nick,bubble,bubble,24/Nov/17 12:28 PM,24/Nov/17 4:46 PM,27/Nov/17 12:34 PM,,,0,,,,,bubble,,,,,,,,,,,,,,,,,,0|i0132d:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+数据team可以从p2p_transaction_flow表获取到note_id（完整的），以便更好的关联标的信息，得到不同期限产品和平台的实发利息数据,KAPP-1796,21132,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,bubble,bubble,24/Nov/17 12:32 PM,24/Nov/17 2:30 PM,27/Nov/17 12:34 PM,,,0,,,,,bubble,,,,,,,,,,,,,,,,,,0|i0132f:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+P2P 实现购买撤销功能,KAPP-1739,20792,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,nick,nick,nick,17/Nov/17 4:03 PM,23/Nov/17 4:30 PM,27/Nov/17 12:34 PM,,,0,,,,,nick,,,,,,,,,,,,,,,,,,0|i0110d:3i,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+用户可以通过总利率，计算“回款计划”中的收益总额,KAPP-1636,20327,,Story,To Do,KAPP,KAPP,software,admin,,,Low,,nick,Lynn,Lynn,09/Nov/17 3:16 PM,22/Nov/17 10:24 AM,27/Nov/17 12:34 PM,,,0,,,"目前是=基础利息(断尾保持2位小数)+加息利息(断尾保持2位小数)
+
+要改成
+*收益=本金*利率/365*在持天数(断尾保持2位小数)*",,Lynn,,,,,,,,,,,,,,KAPP-1376,,,,0|i0110d:6,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+IOS-用户参与21天转赚转活动后的订单，可以看到更清晰的订单进度和展示,KAPP-1792,21122,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,juna,juna,24/Nov/17 11:09 AM,24/Nov/17 4:23 PM,27/Nov/17 12:34 PM,,,0,,,,,juna,,,,,,,,,,,,,,KAPP-1714,,,,0|i012t9:,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+【资金规划功能】用户可以在汇总回款金额的页面，看到投资建议（某段时间可以继续投资短期产品哦）,KAPP-1785,21099,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,Lynn,Lynn,23/Nov/17 6:30 PM,24/Nov/17 4:08 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,KAPP-1810,,,,0|i0110c:gb,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+iOS - 用户可以在APP更换银行卡，无需解绑后再次绑定,KAPP-1805,21200,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,philip,philip,24/Nov/17 3:04 PM,24/Nov/17 3:11 PM,27/Nov/17 12:34 PM,,,0,,,,,philip,,,,,,,,,,,,,,,,,,0|i0110c:g4,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+iOS - 用户在【余额自动投资】界面设置“余额保留金额”，不需要设置投资上限（余额自动投资范围→余额保留金额）,KAPP-1782,21096,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,Lynn,Lynn,23/Nov/17 6:27 PM,24/Nov/17 3:04 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i0110c:g9,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+iOS - 用户的VIP等级升级后，可以在购买成功页看到popup，以便加强用户的荣誉感,KAPP-1687,20604,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,Lynn,Lynn,15/Nov/17 11:50 AM,24/Nov/17 2:59 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i0110c:f,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+iOS - 推广可以在充值并购买完成页可配置button文案和跳转链接，以完善活动闭环,KAPP-1715,20747,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,philip,joyce,joyce,17/Nov/17 11:07 AM,24/Nov/17 2:54 PM,27/Nov/17 12:34 PM,,,0,,,不配置，默认“查看我的资产”，→跳去我的资产页,,joyce,,,,,,,,,,,,,,,,,,0|i0110c:d,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+跟进智投60服务器,KIN-762,21249,,Story,In Progress,KIN,KIN,software,admin,,,Medium,,pony,pony,pony,24/Nov/17 6:29 PM,27/Nov/17 11:49 AM,27/Nov/17 12:34 PM,,,0,,,,,pony,,,,,,,,,,,,,,KIN-297,,,,0|i013s1:,2017-11-27,,,,4.0,,,,,,,,,,,,,
+app team 希望 klg-p2p 在发布之前，先执行一次单元测试，如果不通过block住发布,KIN-745,21031,,Story,In Progress,KIN,KIN,software,admin,,,High,,pony,ruanzhijun,ruanzhijun,22/Nov/17 7:41 PM,27/Nov/17 11:49 AM,27/Nov/17 12:34 PM,,,0,,,,,ruanzhijun,,,,,,,,,,,,,,KIN-40,,,,0|i012rt:,2017-11-27,,,,4.0,,,,,,,,,,22/Nov/17 7:41 PM;ruanzhijun;单元测试之前需要编译ts，单元测试需要依赖本地mongo、redis、rabbitmq，每次跑单元测试会清空mongo和redis,,,
+部署，佛山延时节点，跨地节点。,KIN-685,20083,,Story,To Do,KIN,KIN,software,admin,,,High,,pony,steven,steven,03/Nov/17 6:55 PM,24/Nov/17 3:11 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,KIN-39,,,,0|i00z8x:,2017-11-27,,,,32.0,,,,,,,,,,,,,
+给财务装T3,KIN-758,21208,,Story,In Progress,KIN,KIN,software,admin,,,Medium,,Rolex,pony,pony,24/Nov/17 3:23 PM,27/Nov/17 11:49 AM,27/Nov/17 12:34 PM,,,0,,,,,pony,,,,,,,,,,,,,,KIN-40,,,,0|i013k9:,2017-11-27,,,,4.0,,,,,,,,,,,,,
+解决分部打印机打印出现痕迹的问题,KIN-764,21286,,Story,Done,KIN,KIN,software,admin,,,Medium,Done,Rolex,Rolex,Rolex,27/Nov/17 11:15 AM,27/Nov/17 11:16 AM,27/Nov/17 12:34 PM,27/Nov/17 11:16 AM,,0,,,,,Rolex,,,,,,,,,,,,,,,,,,0|i013wp:,2017-11-27,,,,1.0,,,,,,,,,,,,,
+考拉可以配合投哪网上线，以增加资产量,KINVEST-877,21233,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,hank,hank,24/Nov/17 5:33 PM,27/Nov/17 10:45 AM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i013pl:,sprint 11-27,,,,2.0,,,,,,,,,,,,,
+"投资 -- 修改秒白条 收支逻辑: 不使用对方传过来repay_amount-subject_amount计算利息, 按照10%进行计算",KINVEST-890,21266,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,Rowland,Alex,Alex,27/Nov/17 9:59 AM,27/Nov/17 10:44 AM,27/Nov/17 12:34 PM,27/Nov/17 10:44 AM,,0,,,"投资 -- 修改秒白条 收支逻辑: 不使用对方传过来repay_amount-subject_amount计算利息, 按照10%进行计算",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013qi:,sprint 11-27,,,,1.0,,,,,,,,,,,,,
+投资-我来贷提前还款混杂逾期的虚拟还款的测试,KINVEST-871,21094,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,Rowland,Rowland,Rowland,23/Nov/17 6:23 PM,27/Nov/17 10:06 AM,27/Nov/17 12:34 PM,27/Nov/17 10:06 AM,,0,,,,,Rowland,,,,,,,,,,,,,,,,,,0|i01247:,11-20——11-25,sprint 11-27,,,4.0,,,,,,,,,,,,,
+"投资 -- 对 现发现的秒白条 没有利息的 还款, 添加extends.fixInterest 字段, 填写需修补的利息, 给swen扫描程序识别",KINVEST-797,20224,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,Alex,Alex,07/Nov/17 11:29 PM,24/Nov/17 7:38 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 对 现发现的秒白条 没有利息的 还款, 直投订单表添加extends.fixInterest 字段, 投资后台extend也相应添加. 填写需修补的利息, 给swen扫描程序识别
+https://docs.google.com/spreadsheets/d/1IPVvdP9P2JupYEGGCa4trkSHW9kzyyTdYiMtmyd5yLg/edit#gid=1371905561",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i013dc:zy,sprint 11-27,,,,6.0,,,,,,,,,,,,,
+投资-投哪网虚拟还款计划的开发,KINVEST-865,21036,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,Rowland,Rowland,23/Nov/17 9:43 AM,24/Nov/17 7:36 PM,27/Nov/17 12:34 PM,,,0,,,,,Rowland,,,,,,,,,,,,,,,,,,0|hzzxq2:,sprint 11-27,,,,8.0,,,,,,,,,,,,,
+"投资 -- 完善 请求处理, 现 前一个请求数据会覆盖后一个请求数据, 导致前端页面显示有问题, 添加 版本 version 字段, 避免覆盖",KINVEST-720,19235,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,Alex,Alex,16/Oct/17 6:32 PM,24/Nov/17 6:06 PM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 完善 请求处理, 现 前一个请求数据会覆盖后一个请求数据, 导致前端页面显示有问题,
+    解决方式:  在 store/mutations.js 添加 版本 version 字段, 每次请求数据前, version +1 , 请求成功时, 判断 返回version 是否与当前 store 的version相符合, 不符合不做更新, 
+     需要在后端的接口格式化中间件添加 version 的返回.",,Alex,,,,,,,,,,,,,,KINVEST-16,,,,0|i012gk:i,sprint 11-27,,,,6.0,,,,,,,,,,,,,
+直投-投哪网的整体流程单元测试,KINVEST-864,21035,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,Rowland,Rowland,23/Nov/17 9:42 AM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,Rowland,,,,,,,,,,,,,,,,,,0|hzzxq4:,sprint 11-27,,,,4.0,,,,,,,,,,,,,
+dev可以有钱兔对接的总体设计方案，以对接平台,KINVEST-880,21236,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,hank,hank,24/Nov/17 5:34 PM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i013px:,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+考拉可以配合钱兔的文档沟通，回答技术问题，以对接该平台,KINVEST-878,21234,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,Rowland,hank,hank,24/Nov/17 5:34 PM,24/Nov/17 5:45 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i013pt:,sprint 11-27,,,,4.0,,,,,,,,,,,,,
+把swan 那台机器的   /nas/docker/registry.bak.tar.gz  拉回本地并清理,KIN-763,21260,,Story,To Do,KIN,KIN,software,admin,,,Medium,,steven,steven,steven,26/Nov/17 5:27 PM,26/Nov/17 5:28 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,,,,,0|i013sx:,2017-11-27,,,,,,,,,,,,,,,,,
+xed dev可以得到跳板机登录服务器，以保证与考拉同等级别的安全性,KIN-742,20974,,Story,To Do,KIN,KIN,software,admin,,,Low,,steven,wade,wade,21/Nov/17 8:32 PM,24/Nov/17 3:17 PM,21/Nov/17 8:33 PM,,,0,,,,,wade,,,,,,,,,,,,,,KIN-555,,,,0|i00z8y:,2017-11-27,,,,8.0,,,,,,,,,,,,,
+服务器打补丁,KIN-688,20088,,Story,To Do,KIN,KIN,software,admin,,,Medium,,steven,steven,steven,03/Nov/17 6:59 PM,24/Nov/17 3:04 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,KIN-555,,,,0|i00z91:,2017-11-27,,,,24.0,,,,,,,,,,,,,
+单台漏洞扫描,KIN-756,21198,20088,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,steven,steven,steven,24/Nov/17 3:03 PM,24/Nov/17 3:04 PM,27/Nov/17 12:34 PM,,,0,,,Nessus,,steven,,,,,,,,,,,,,,,,,,0|i013ih:,2017-11-27,,,,,,,,,,,,,,,,,
+后端 - 用户可以在资金流水看到全部流水明细并且看到资金结余情况,KAPP-1712,20708,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,brady_z,brady_z,16/Nov/17 6:12 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,,,,,,,,,,,,,,,,,,,,,0|i011l1:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,10.0,,,,,,,,,,,,,
+"交易系统接收录标会标打相应的标签, 以方便特殊交易策略选取相应的标用来交易",KAPP-1807,21206,,Story,To Do,KAPP,KAPP,software,admin,,,High,,swen,swen,swen,24/Nov/17 3:19 PM,24/Nov/17 4:52 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i012su:,Sprint 11.27-12.01,,,,6.0,,,,,,,,,,,,,
+"p2p在向交易系统录标时附带标的信息, 用来让交易系统识别相应标的",KAPP-1811,21211,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,24/Nov/17 3:24 PM,24/Nov/17 4:52 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i012st:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+"后端 - 交易系统提供接口修改策略, 以方便添加, 修改策略",KAPP-1815,21217,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,24/Nov/17 3:44 PM,24/Nov/17 4:52 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i012ss:,Sprint 11.27-12.01,,,,2.0,,,,,,,,,,,,,
+交易系统匹配机制可以支持选取特定标的进行交易,KAPP-1808,21207,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,24/Nov/17 3:22 PM,24/Nov/17 4:52 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i012su:i,Sprint 11.27-12.01,,,,6.0,,,,,,,,,,,,,
+更新用户结余信息(p2p系统和app系统)存入数据库,KAPP-1806,21202,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,24/Nov/17 3:05 PM,24/Nov/17 4:13 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i0110c:cy,Sprint 11.27-12.01,,,,8.0,,,,,,,,,,,,,
+用户在支付限额不足时，收到吐司“……n万……”,KAPP-1639,20339,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,Lynn,Lynn,09/Nov/17 6:39 PM,24/Nov/17 3:43 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i0110c:bi,Sprint 11.27-12.01,,,,2.0,,,,,,,,,,,,,
+"p2p系统向交易系统录入购买请求时, 附带策略包和条件",KAPP-1812,21212,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,24/Nov/17 3:30 PM,24/Nov/17 3:42 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i0110c:cx,Sprint 11.27-12.01,,,,2.0,,,,,,,,,,,,,
+新网新增6家支持银行，快捷支付&代扣功能需加上—becky,KAPP-1780,21090,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,swen,becky,becky,23/Nov/17 6:10 PM,24/Nov/17 3:03 PM,27/Nov/17 12:34 PM,,,0,,,"支持情况：
+https://docs.google.com/spreadsheets/d/1Zk878LwolcVgjSrApN4fDiD0WNQzvEi1qrPH1vbvJ04/edit#gid=754257841
+
+新网文档：
+M:\财略金融\托管\新网银行-懒猫联银\新网银行技术文档\新网相关文档（11月16日）--最新",,becky,,,,,,,,,,,,,,,,,,0|i0110c:b,Sprint 11.27-12.01,,,,1.0,,,,,,,,,,,,,
+用户能看到每一笔现金流的结余,KAPP-1727,20761,20708,Sub-task,Testing,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,17/Nov/17 11:30 AM,24/Nov/17 3:03 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i011s5:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,,,,,,,,,,,,,,
+用户能看到所有的余额现金流,KAPP-1726,20760,20708,Sub-task,Testing,KAPP,KAPP,software,admin,,,Medium,,swen,swen,swen,17/Nov/17 11:29 AM,24/Nov/17 3:03 PM,27/Nov/17 12:34 PM,,,0,,,,,swen,,,,,,,,,,,,,,,,,,0|i011rx:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,,,,,,,,,,,,,,
+11.23-VIP特权【1】-月度礼包活动—becky,KAC-903,21243,,Story,In Progress,KAC,KActivity,software,admin,,,High,,tina,tina,tina,24/Nov/17 6:14 PM,27/Nov/17 9:34 AM,27/Nov/17 12:34 PM,,,0,,,"https://docs.google.com/spreadsheets/d/1ugCvSq9_CUmTwQhtjxYNb0F90CFcYMjnDY6ZyRF4oTA/edit#gid=1451553422
+
+checklist：
+https://docs.google.com/spreadsheets/d/1Qqk6rh_s82hakFju0MAAwQ9vvY8K12B3RpXPA4STaVw/edit#gid=958729840
+
+UI地址：U:\金融项目\市场需求\运营\20171122 VIP月度礼包
+
+https://docs.google.com/spreadsheets/d/1ch5vXW3MKAIRgnaRNEPnOyiHMzdG61MM17UMEYrKyFA/edit#gid=0
+
+分支：feature-vipPackage",,tina,,,,,,,,,,,,,,,,,,0|i013qx:,KAC——2017-11-27,,,,6.0,,,,,,,,,,,,,
+管理后台券任务发送条件修改为使用app的condition，以及增加黑名单条件,KAC-859,20699,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,tina,young,young,16/Nov/17 3:59 PM,24/Nov/17 7:43 PM,27/Nov/17 12:34 PM,,,0,,,"新活动前三天 2-5
+新手渠道活动 5-15
+新手礼包活动 16 
+运营推广活动 17-25 
+常规活动 26-40
+增信 41-50 ",,young,,,,,,,,,,,,,,KAC-857,,,,0|i011dz:,KAC——2017-11-27,,,,3.0,,,,,,,,,,,,,
+前端——运营希望给连续打卡活动加本周已投资金额，方便用户清晰知道跟目标的距离,KAC-898,21223,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,tina,tina,tina,24/Nov/17 4:31 PM,24/Nov/17 4:31 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i011eb:ii,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+新手福利活动页面优化并可点击跳转至产品列表页,KAC-886,21130,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,tina,sheena,sheena,24/Nov/17 12:08 PM,24/Nov/17 3:10 PM,27/Nov/17 12:34 PM,,,0,活动奖励,界面显示,新手福利活动页优化；用户点击活动页可跳转至产品列表页。,,sheena,,,,,,,,,,24/Nov/17 11:29 AM;sheena;1511494142.jpg;http://jira.tool.kaolalicai.cn/secure/attachment/10206/1511494142.jpg,,,,,,,,0|i013bh:,KAC——2017-11-27,,,,3.0,,,,,,,,,,,,,
+前端——管理后台发送券奖励时，可配置是否发送push,KAC-855,20678,,Story,To Do,KAC,KActivity,software,admin,,,High,,tina,tina,tina,16/Nov/17 2:05 PM,24/Nov/17 2:34 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,KAC-857,,,,0|i011dt:,KAC——2017-11-27,,,,4.0,,,,,,,,,,,,,
+前端——我的奖励页以及管理后台发送券奖励，加息券增加一个字段来源,KAC-853,20676,,Story,To Do,KAC,KActivity,software,admin,,,High,,tina,tina,tina,16/Nov/17 2:03 PM,24/Nov/17 2:34 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,KAC-857,,,,0|i011dh:,KAC——2017-11-27,,,,4.0,,,,,,,,,,,,,
+11.29前端-VIP特权【3】VIP三大活动聚合页—becky,KAC-844,20650,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,tina,becky,becky,16/Nov/17 10:24 AM,23/Nov/17 3:00 PM,27/Nov/17 12:34 PM,,,0,,,,,becky,,,,,,,,,,,,,,,,,,0|i011e6:,KAC——2017-11-27,,,,4.0,,,,,,,,,,,,,
+旧投资后台-投资汇总-汇总数据错误,KINVEST-835,20737,,Story,To Do,KINVEST,KINVEST,software,admin,,,Highest,,white,ada,ada,17/Nov/17 10:04 AM,27/Nov/17 11:22 AM,27/Nov/17 12:34 PM,,,0,,,,,ada,,,,,,,,,,17/Nov/17 10:04 AM;ada;image-2017-11-17-10-03-48-592.png;http://jira.tool.kaolalicai.cn/secure/attachment/10201/image-2017-11-17-10-03-48-592.png,,,,,,,,0|i013qn:,sprint 11-27,,,,4.0,,,,,,,,,,,,,
+"投资 -- 考虑 直投管理 -- 限额 返回详细 信息: 如 6月 产品 关闭, 期限不符, 等详细信息",KINVEST-866,21048,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,white,Alex,Alex,23/Nov/17 11:25 AM,27/Nov/17 11:22 AM,27/Nov/17 12:34 PM,,,0,,,"投资 -- 考虑 直投管理 -- 限额 返回详细 信息: 如 6月 产品 关闭, 期限不符, 等详细信息",,Alex,,,,,,,,,,,,,,KINVEST-15,,,,0|i012gk:u,sprint 11-27,,,,3.0,,,,,,,,,,,,,
+"签章 -- 完善 签章返回错误信息, 以便开发进行debug.",KINVEST-868,21061,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,white,Alex,Alex,23/Nov/17 12:06 PM,27/Nov/17 11:22 AM,27/Nov/17 12:34 PM,,,0,,,"签章 -- 完善 签章返回错误信息, 以便开发进行debug.: 
+       现签章返回 p2p 错误信息为: 签章未完成 , 无法得知确切的错误信息, 完善签章返回错误信息. 以便进行debug/",,Alex,,,,,,,,,,,,,,KINVEST-484,,,,0|i012gk:y,sprint 11-27,,,,3.0,,,,,,,,,,,,,
+"投资--麦芽贷的还款方式为3, 应是到期还款，但是却显示等额本息",KINVEST-788,20135,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,white,white,white,06/Nov/17 10:48 AM,27/Nov/17 11:21 AM,27/Nov/17 12:34 PM,,,0,,,,,white,,,,,,,,,,,,,,KINVEST-15,,,,0|i012gk:9,11-20——11-25,sprint 11-27,,,1.0,,,,,,,,,,,,,
+麦芽贷--麦芽贷可以跑少量标,KINVEST-883,21239,,Story,In Progress,KINVEST,KINVEST,software,admin,,,Medium,,white,white,white,24/Nov/17 5:47 PM,27/Nov/17 11:21 AM,27/Nov/17 12:34 PM,,,0,,,,,white,,,,,,,,,,,,,,,,,,0|i012gk:w,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+风控--旧投资后台统计预计平台回款的脚本，为了预测流动性风险,KINVEST-850,20906,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,white,phoebe,phoebe,20/Nov/17 5:42 PM,27/Nov/17 11:21 AM,27/Nov/17 12:34 PM,27/Nov/17 11:21 AM,,0,,,"1.统计未来7/30/90天 旧投资后台的全部平台的 回款情况
+2.统计未来7/30/90天 旧投资后台的我来贷的 回款情况（注意：不要混杂我来贷（新）的数据）
+
+可修改参数：
+1.日期
+2.可选择平台，未选择时统计全部平台，选择时单独统计 我来贷 的数据",,phoebe,,,,,,,,,,,,,,,,,,0|i0128z:,11-20——11-25,sprint 11-27,,,1.0,,,,,,,,,,,,,
+直投项目可以使用新dockerfile构建，保证每次小改动只需要push  1M以内，以提高开发效率,KINVEST-834,20736,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,white,hank,hank,17/Nov/17 7:51 AM,27/Nov/17 10:04 AM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i012fu:,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+直投-- 让直投healthcheck不能随便被关掉。,KINVEST-891,21267,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,white,white,white,27/Nov/17 10:04 AM,27/Nov/17 10:04 AM,27/Nov/17 12:34 PM,,,0,,,,,white,,,,,,,,,,,,,,,,,,0|i013ql:,sprint 11-27,,,,,,,,,,,,,,,,,
+直投-- 企业代偿可以收取考拉服务费部分,KINVEST-849,20878,,Story,Done,KINVEST,KINVEST,software,admin,,,Medium,Done,white,white,white,20/Nov/17 2:01 PM,27/Nov/17 9:49 AM,27/Nov/17 12:34 PM,27/Nov/17 9:49 AM,,0,,,,,white,,,,,,,,,,,,,,KINVEST-15,,,,0|i01246:r,11-20——11-25,sprint 11-27,,,4.0,,,,,,,,,,,,,
+签章--每次新增平台不需要修改p2p代码。修改合同id，可以使用平台id,KINVEST-876,21172,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,white,white,white,24/Nov/17 2:41 PM,24/Nov/17 5:44 PM,27/Nov/17 12:34 PM,,,0,,,,,white,,,,,,,,,,,,,,,,,,0|i012gi:,sprint 11-27,,,,5.0,,,,,,,,,,,,,
+排查签章失败的原因,KINVEST-867,21058,,Story,To Do,KINVEST,KINVEST,software,admin,,,Medium,,white,hank,hank,23/Nov/17 11:56 AM,24/Nov/17 3:39 PM,27/Nov/17 12:34 PM,,,0,,,,,hank,,,,,,,,,,,,,,,,,,0|i012gh:,sprint 11-27,,,,8.0,,,,,,,,,,,,,
+11.29后端-VIP特权【2】-签到宝箱奖励翻倍—becky,KAC-819,20292,,Story,In Progress,KAC,KActivity,software,admin,,,Medium,,young,becky,becky,09/Nov/17 11:53 AM,27/Nov/17 11:48 AM,27/Nov/17 12:34 PM,,,0,,,"https://docs.google.com/spreadsheets/d/1ugCvSq9_CUmTwQhtjxYNb0F90CFcYMjnDY6ZyRF4oTA/edit#gid=1662815420
+
+checklist(在P57-P87行)：
+https://docs.google.com/spreadsheets/d/1Qqk6rh_s82hakFju0MAAwQ9vvY8K12B3RpXPA4STaVw/edit#gid=248360219",,becky,,,,,,,,,,,,,,,,,,0|i011eb:,KAC——2017-11-27,,,,6.0,,,,,,,,,,,,,
+后端——疯狂抢加息券活动，修改适用产品，加息额度，起用门槛和张数,KAC-900,21227,,Story,Testing,KAC,KActivity,software,admin,,,Highest,,young,tina,tina,24/Nov/17 4:34 PM,27/Nov/17 11:48 AM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i011e9:,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+后端——运营希望修改每周打卡的活动规则和加息券，使得加息券不适用7天产品,KAC-888,21160,,Story,Testing,KAC,KActivity,software,admin,,,Highest,,young,tina,tina,24/Nov/17 2:26 PM,27/Nov/17 11:48 AM,27/Nov/17 12:34 PM,,,0,,,"加息券修改：
+适用产品：≥14天",,tina,,,,,,,,,,,,,,,,,,0|i011e8:,KAC——2017-11-27,,,,2.0,,,,,,,,,,,,,
+后端--跟进王者荣耀2.0测试,KAC-885,21093,,Story,Testing,KAC,KActivity,software,admin,,,Highest,,young,young,young,23/Nov/17 6:22 PM,27/Nov/17 10:53 AM,27/Nov/17 12:34 PM,,,0,,,,,Fernando,young,,,,,,,,,,,,,KAC-875,,,,0|i012wj:,KAC——2017-11-27,,,,6.0,,,,,,,,,,27/Nov/17 10:53 AM;Fernando;https://docs.google.com/spreadsheets/d/1n-tiJsidM3l2lwCF4qwtzn--Cw1JCWg6BVe4wSRxUYs/edit#gid=1933478121,,,
+后端——运营希望24号重新上线打考拉活动，修改奖励和概率,KAC-874,21069,,Story,To Do,KAC,KActivity,software,admin,,,Low,,young,tina,tina,23/Nov/17 3:31 PM,27/Nov/17 10:02 AM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i0130i:,KAC——2017-11-27,,,,6.0,,,,,,,,,,,,,
+运营希望可以在管理后台-券发送增加黑名单，对黑名单用户，不下发奖励券等,KAC-834,20506,,Story,Testing,KAC,KActivity,software,admin,,,High,,young,amanda,amanda,13/Nov/17 8:23 PM,27/Nov/17 9:33 AM,20/Nov/17 2:08 PM,,,0,,,,,amanda,,,,,,,,,,,,,,KAC-857,,,,0|i00zw7:,KAC——2017-11-13,KAC——2017-11-20,KAC——2017-11-27,,6.0,,,,,,,,,,,,,
+后端——我的奖励页以及管理后台发送券奖励，加息券增加一个字段来源,KAC-854,20677,,Story,Testing,KAC,KActivity,software,admin,,,High,,young,tina,tina,16/Nov/17 2:04 PM,27/Nov/17 9:33 AM,22/Nov/17 11:16 AM,,,0,,,,,tina,,,,,,,,,,,,,,KAC-857,,,,0|i00ysc:r,KAC——2017-11-20,KAC——2017-11-27,,,8.0,,,,,,,,,,,,,
+后端——前端——管理后台发送券奖励&代码发送奖励时，可配置是否发送push,KAC-856,20679,,Story,Testing,KAC,KActivity,software,admin,,,High,,young,tina,tina,16/Nov/17 2:05 PM,27/Nov/17 9:33 AM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,KAC-857,,,,0|i00ysc:d,KAC——2017-11-20,KAC——2017-11-27,,,6.0,,,,,,,,,,,,,
+后端——为了提高活动的灵活性，活动上线&下线时间，奖励参数等在管理后台可配置,KAC-831,20417,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,young,tina,tina,10/Nov/17 5:56 PM,24/Nov/17 4:38 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i0130f:,KAC——2017-11-27,,,,6.0,,,,,,,,,,,,,
+后端——管理后台可直接配置，奖励为前置加息的活动,KAC-901,21231,,Story,To Do,KAC,KActivity,software,admin,,,Lowest,,young,tina,tina,24/Nov/17 4:37 PM,24/Nov/17 4:37 PM,27/Nov/17 12:34 PM,,,0,,,,,tina,,,,,,,,,,,,,,,,,,0|i013pd:,KAC——2017-11-27,,,,8.0,,,,,,,,,,,,,
+后端——运营希望给连续打卡活动加本周已投资金额，方便用户清晰知道跟目标的距离,KAC-869,21028,,Story,To Do,KAC,KActivity,software,admin,,,Medium,,young,Sandy,Sandy,22/Nov/17 6:50 PM,24/Nov/17 4:31 PM,27/Nov/17 12:34 PM,,,0,,,https://docs.google.com/spreadsheets/d/1ugCvSq9_CUmTwQhtjxYNb0F90CFcYMjnDY6ZyRF4oTA/edit#gid=565398035,,Sandy,,,,,,,,,,,,,,,,,,0|i012r5:,KAC——2017-11-27,,,,3.0,,,,,,,,,,,,,
+APP 本周总结 week summary 11.27,KAPP-1620,20296,,Story,In Progress,KAPP,KAPP,software,admin,,,Medium,,zmliu,nick,nick,09/Nov/17 12:03 PM,27/Nov/17 12:32 PM,27/Nov/17 12:34 PM,,,0,,,"整体状态为: 中
+1. 优化21天转赚转的订单页面，在活动页展示并购买【提高余额复投】Jamie
+2. （内测）省心宝可以跑通推标+冻结利息+撤销交易的流程【解决用户回款混乱问题+提高资金复投】Swen
+3. 用户知道某个时间段内的回款总额，并看到投资建议【提高用户资金规划】June",,nick,,,,,,,,,,,,,,,,,,0|hzzxrg:,Sprint 11.06-11.10,Sprint 11.13-11.17,Sprint 11.27-12.01,,,,,,,,,,,,,,,
+APP 本周总结 week summary 11.20,KAPP-1748,20871,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,zmliu,zmliu,20/Nov/17 12:04 PM,27/Nov/17 12:20 PM,27/Nov/17 12:34 PM,,,0,,,"本周完成情况：
+0 iOS+Android 发包：3.9.0 1
+1 快转明细页可以引导转存到存管定期【清退原账户资金】 Brady 1
+2 “21天转赚转”产品内部员工线上测试【提高复投率】 Jamie 0
+3 用户可以在资金流水看到全部流水明细并且看到资金结余情况 Swen 0
+4 客服可以给单个用户切换支付渠道的功能【提高支付体验和支付成功率】 Swen 1
+5 非工作日提现时，提现金额≤已结算余额，可当天到账（内部灰度测试）【优化提现体验】 Leo 1
+
+下周目标：
+1. 优化21天转赚转的订单页面，在活动页展示并购买【提高余额复投】Jamie
+2. （内测）省心宝可以跑通推标+冻结利息+撤销交易的流程【解决用户回款混乱问题+提高资金复投】Swen
+3. 用户知道某个时间段内的回款总额，并看到投资建议【提高用户资                                                                             
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                                                                                                                         
+                                                                                      金规划】June
+
+产品Review建议：
+1.SM负责协调技术资源，PO不负责
+2.提供一套自动化测试工具，提高测试的效率——下周安排
+①在没有测试工具前，开发技术要配合验收
+3.产品要更早定好需求，让技术花多点时间去做设计和预估
+
+技术Review建议：
+1.资金结余预估时，没有包括设计方案的时间——预估时间时，需要把设计方案在脑海过一遍
+2.有严重Bug时，系统有预警，但是没有合并到同一个预警平台
+——需要把所有预警合并
+——需要及时update给其他人
+3.PO和技术一起决定是否要去解决某些Bug，是否会影响进度、是否需要紧急投入资源
+4.运维要对用户负责——H5页面打不开，需要运维给结果
+5.iOS 回款日历为了发包赶进度，开发设计效果不理想，需要完善——如有价值更高的需求，可以先hold
+6.Android 回款日历还有更好的实现方案，有时间可以去优化
+7.功能跑通了，测试末期才发现体验不够好，要比较晚才去修改会导致加班——要想办法解决",,Lynn,zmliu,,,,,,,,,24/Nov/17 2:47 PM;Lynn;11.20-11.26 user feedback.png;http://jira.tool.kaolalicai.cn/secure/attachment/10207/11.20-11.26+user+feedback.png,,,,,,,,0|hzzxre:,Sprint 11.20-11.24,Sprint 11.27-12.01,,,,,,,,,,,,,"24/Nov/17 2:42 PM;Lynn;*11.20-11.26 用户反馈*
+1.为什么回款计划里的预期收益比预想的少很多（等额本息）	58	27.88%
+2.回款日怎么还没有按时回款	49	23.56%
+3.提现什么时候到账	24	11.54%
+4.提现收费吗	15	7.21%
+5.为什么收不到回款短信了	13	6.25%","24/Nov/17 2:44 PM;Lynn;*21+21产品购买情况：超标完成*
+截止到11.24 下午3点，用户总数：755 购买总金额：5,238,750元","24/Nov/17 2:55 PM;Lynn;*17号上线余额自动投资-上线VIP专属的加息*
+
+总开通人数3277人，开通率14.5%，每天订单500左右，人均3000左右。
+
+*专属加息上线后，并未发现开通率有上升较多。*
+猜测原因：大多数用户不知道该功能有加息，没有做太多曝光，接下来会上线1个banner曝光，看下是否有提高开通人数。","24/Nov/17 4:02 PM;Lynn;*某个产品定期明细看到回款进度+订单详情折叠回款计划*
+订单详情页_回款计划_点击_显示
+点击率 25%，较少用户会主动去查看回款计划。
+
+这个折叠可以让页面更清晰，也不会让用户觉得很烦的。"
+11-25  用户总资产显示有122.99，但是看不出来资金在哪里,KAPP-1825,21256,,Bug,Done,KAPP,KAPP,software,admin,,,Highest,Done,zmliu,cici,cici,25/Nov/17 9:30 AM,27/Nov/17 11:56 AM,27/Nov/17 12:34 PM,27/Nov/17 11:56 AM,,0,资产收益,,注册号15022752408,,cici,zmliu,,,,,,,,,,,,,,,,,0|i013sh:,Sprint 11.27-12.01,,,,,,,,,,,,,,"27/Nov/17 11:51 AM;zmliu;问题原因：用户开户时候代充值没有成功,导致钱停留在用户原账户余额，在页面上无法显示
+如何解决：代充值失败的两个用户重新执行代充值
+解决时间：11.25-11:00 
+影响范围：两个开户后代充值没有成功的用户, 涉及金额分别是 122.99 元 ， 0.83元
+如何避免：开户后代充值失败可以进行自动补单（未完成）",,,
+用户可以在360天期限的产品购买页上看到顶部小喇叭，具体内容见Desc,KAPP-1837,21285,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,Lynn,Lynn,27/Nov/17 11:15 AM,27/Nov/17 11:15 AM,27/Nov/17 12:34 PM,,,0,,,"所有*360天期限*的产品（除了省心宝之外），购买页小喇叭文案：
+该产品回款方式为等额本息，每月都归还部分本金和利息，总收益会稍微低一点哦。",,Lynn,,,,,,,,,,,,,,,,,,0|i013sw:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+为了提高APP准确性，需要完善klg-app测试用例 购买部分(链接看Description),KAPP-1423,19300,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,navy,navy,18/Oct/17 4:15 PM,27/Nov/17 8:50 AM,27/Nov/17 12:34 PM,,,0,,,需要补充的测试用例链接：https://docs.google.com/spreadsheets/d/1RX4W50QYYZhGpbEGnXwNxnCO1d5I9oGgi3zducmfAaw/edit#gid=0 ，具体不清晰的咨询Emily,,navy,,,,,,,,,,,,,,,,,,0|i00zjn:,Sprint 11.06-11.10,Sprint 11.20-11.24,Sprint 11.27-12.01,,6.0,,,,,,,,,,,,,
+用户不会有逾期回款的体验 (确定解决方案以及实施的技术细节),KAPP-1755,20937,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,Lynn,Lynn,21/Nov/17 2:31 PM,24/Nov/17 4:10 PM,27/Nov/17 12:34 PM,,,0,,,,,Lynn,,,,,,,,,,,,,,,,,,0|i01125:,Sprint 11.27-12.01,,,,4.0,,,,,,,,,,,,,
+"管理后台可以看到P2P所有订单类型的错误订单 , 并可以进行补单操作",KAPP-1817,21219,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,zmliu,zmliu,24/Nov/17 3:58 PM,24/Nov/17 4:00 PM,27/Nov/17 12:34 PM,,,0,,,,,zmliu,,,,,,,,,,,,,,,,,,0|i013m9:,Sprint 11.27-12.01,,,,5.0,,,,,,,,,,,,,
+"当P2P系统出现问题的预警机制，例如今天代偿问题,如何通知dev 及时处理，确定方案",KAPP-1818,21220,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,zmliu,zmliu,zmliu,24/Nov/17 3:59 PM,24/Nov/17 3:59 PM,27/Nov/17 12:34 PM,,,0,,,,,zmliu,,,,,,,,,,,,,,,,,,0|i013mh:,Sprint 11.27-12.01,,,,7.0,,,,,,,,,,,,,
+解决p2p对账文件写入数据库时数据丢失的问题,KAPP-1743,20820,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,,ruanzhijun,ruanzhijun,18/Nov/17 11:18 AM,24/Nov/17 4:36 PM,27/Nov/17 12:34 PM,,,0,,,,,ruanzhijun,,,,,,,,,,,,,,KAPP-1381,,,,0|i013op:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+app增加一个互斥锁的中间件，实现锁api的功能，避免在业务层写锁的代码(主要可以让代码更优雅),KAPP-1741,20817,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,,ruanzhijun,ruanzhijun,17/Nov/17 7:48 PM,24/Nov/17 4:36 PM,27/Nov/17 12:34 PM,,,0,,,,,ruanzhijun,,,,,,,,,,,,,,KAPP-1381,,,,0|i013ox:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+解决p2p对账数据库断开的问题,KAPP-1742,20818,,Story,To Do,KAPP,KAPP,software,admin,,,Medium,,,ruanzhijun,ruanzhijun,18/Nov/17 11:02 AM,24/Nov/17 4:36 PM,27/Nov/17 12:34 PM,,,0,,,,,ruanzhijun,,,,,,,,,,,,,,KAPP-1381,,,,0|i013p5:,Sprint 11.27-12.01,,,,,,,,,,,,,,,,,
+在佛山服务器启动各个项目，让整个app跑起来,KIN-754,21190,20083,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,,steven,steven,24/Nov/17 3:00 PM,24/Nov/17 3:57 PM,27/Nov/17 12:34 PM,,,0,,,"mongo和redis 连接佛山机房的。
+如没有redis 自己搭建一个，监听地址不要设置为 0.0.0.0,设置为监听内网端口。
+mongo只能用只读账号。
+大部分项目启动配置文件路劲为：{项目路劲}/bin/pm2/production.json  
+启动方式 pm2 start bin/pm2/production.json    ps:启动前修改连接 mongo url。 有的直接在 bin/production.json。
+",,steven,,,,,,,,,,,,,,,,,,0|i013gp:,2017-11-27,,,,,,,,,,,,,,,,,
+自测，通过后交付给测试测。,KIN-755,21191,20083,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,,steven,steven,24/Nov/17 3:00 PM,24/Nov/17 3:16 PM,27/Nov/17 12:34 PM,,,0,,,"注意，一.mongo 地址 要再三确认连接的是佛山机房。
+          二.  mongo账号只可以读。",,steven,,,,,,,,,,,,,,,,,,0|i013gx:,2017-11-27,,,,,,,,,,,,,,,,,
+在佛山机房的延时mongo创建只读账号,KIN-753,21187,20083,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,,steven,steven,24/Nov/17 2:58 PM,24/Nov/17 3:14 PM,27/Nov/17 12:34 PM,,,0,,,mongo 一定要连接佛山机房的延时节点，且只能读。,,steven,,,,,,,,,,,,,,,,,,0|i013g1:,2017-11-27,,,,,,,,,,,,,,,,,
+佛山机房部署pm2和node环境,KIN-752,21186,20083,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,,steven,steven,24/Nov/17 2:57 PM,24/Nov/17 3:13 PM,27/Nov/17 12:34 PM,,,0,,,环境按照生产环境的标准部署,,steven,,,,,,,,,,,,,,,,,,0|i013ft:,2017-11-27,,,,,,,,,,,,,,,,,
+批量打补丁,KIN-757,21199,20088,Sub-task,To Do,KIN,KIN,software,admin,,,Medium,,,steven,steven,24/Nov/17 3:04 PM,24/Nov/17 3:04 PM,27/Nov/17 12:34 PM,,,0,,,,,steven,,,,,,,,,,,,,,,,,,0|i013ip:,2017-11-27,,,,,,,,,,,,,,,,,
