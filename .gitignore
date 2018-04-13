@@ -2,5 +2,7 @@
 *.pyc
 *__pycache__*
 *nenv*
+panda/*.csv
 *_cache
 .idea
+.DS_Store
