@@ -3,31 +3,34 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #choose col
-col_point = "Custom field (Story Points)"
-col_proj = "Project name"
 
 from_file = "project.csv"
-to_file = "to_project.csv"
 
-def run_draw():
+'''
+    return dataframe
+'''
+def read(from_file):
+    df = pd.read_csv(from_file)
+    return df
+
+def select(df):
     col_point = "Custom field (Story Points)"
     col_proj = "Project name"
     col_act = "Custom field (Actual Time)"
 
-    from_file = "project.csv"
-    to_file = "to_project.csv"
+    l = df.loc[0:, [col_point, col_proj, col_act]]
+    f = l.groupby(col_proj).sum()
+    fn = f.dropna()
+    return fn
 
-    df=pd.read_csv(from_file)
-    l=df.loc[0:, [col_point, col_proj, col_act]]
-    f=l.groupby(col_proj).sum()
-    fn=f.dropna()
-    f.plot.bar()
-
+def draw(fn):
+    fn.plot.bar()
     #save file
     fig = plt.gcf()
     fig.savefig('./templates/project.png')
-
     #plt.show()
 
 if __name__ == '__main__':
-    run_draw()
+    df = read("project.csv")
+    fn = select(df)
+    draw(fn)

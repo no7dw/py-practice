@@ -10,26 +10,32 @@ col_ass = "Assignee"
 from_file = "storypoint.csv"
 to_file = "to_storypoints.csv"
 
-def run_draw():
-    df=pd.read_csv(from_file)
+def read(file):
+    df = pd.read_csv(file)
+    return df
+
+def select(df):    
     l=df.loc[0:, [col_point, col_proj, col_ass]]
     f=l.groupby(col_ass).sum()
     fn=f.dropna()
-
     fn.to_csv(to_file)
     pd.read_csv(to_file)
-    f=pd.read_csv(to_file)
+    f = pd.read_csv(to_file)
+    return f
 
+def draw(f):
     # choose x,y
-    y=np.array(f[col_point])
-    x=np.array(f[col_ass])
+    y = np.array(f[col_point])
+    x = np.array(f[col_ass])
     #draw bar char
     plt.figure(figsize=(20,10))
     plt.bar(x,y)
     #save file
     fig = plt.gcf()
     fig.savefig('./templates/storypoint-by-person.png')
-
     #plt.show()
+    
 if __name__ == '__main__':
-    run_draw()
+    df = read(from_file)
+    f = select(df)
+    draw(f)
