@@ -15,13 +15,10 @@ def read(file):
     return df
 
 def select(df):    
-    l=df.loc[0:, [col_point, col_proj, col_ass]]
-    f=l.groupby(col_ass).sum()
-    fn=f.dropna()
-    fn.to_csv(to_file)
-    pd.read_csv(to_file)
-    f = pd.read_csv(to_file)
-    return f
+    l = df.loc[0:, [col_point, col_proj, col_ass]]
+    f = l.groupby(col_ass).sum()
+    fn = f.dropna()
+    return fn.reset_index()
 
 def draw(f):
     # choose x,y
@@ -34,7 +31,7 @@ def draw(f):
     fig = plt.gcf()
     fig.savefig('./templates/storypoint-by-person.png')
     #plt.show()
-    
+
 if __name__ == '__main__':
     df = read(from_file)
     f = select(df)
