@@ -31,6 +31,8 @@ def draw(fn):
     #plt.show()
 
 if __name__ == '__main__':
-    df = read("project.csv")
+    if(len(sys.argv) > 1) :
+        from_file = sys.argv[1]
+    df = read(from_file)
     fn = select(df)
     draw(fn)

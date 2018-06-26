@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 #choose col
 col_point = "Custom field (Story Points)"
@@ -32,6 +33,8 @@ def draw(f):
     #plt.show()
 
 if __name__ == '__main__':
+    if(len(sys.argv) > 1) :
+        from_file = sys.argv[1]
     df = read(from_file)
     f = select(df)
     draw(f)
