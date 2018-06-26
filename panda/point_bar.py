@@ -8,7 +8,6 @@ col_proj = "Project name"
 col_ass = "Assignee"
 
 from_file = "storypoint.csv"
-to_file = "to_storypoints.csv"
 
 def read(file):
     df = pd.read_csv(file)
