@@ -8,7 +8,7 @@ col_proj = "Project name"
 col_ass = "Assignee"
 
 from_file = "storypoint.csv"
-to_file = "new_storypoints.csv"
+to_file = "to_storypoints.csv"
 
 def run_draw():
     df=pd.read_csv(from_file)
@@ -28,7 +28,7 @@ def run_draw():
     plt.bar(x,y)
     #save file
     fig = plt.gcf()
-    fig.savefig('./templates/result.png')
+    fig.savefig('./templates/storypoint-by-person.png')
 
     #plt.show()
 if __name__ == '__main__':
