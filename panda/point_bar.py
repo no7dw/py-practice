@@ -8,7 +8,7 @@ col_point = "Custom field (Story Points)"
 col_proj = "Project name"
 col_ass = "Assignee"
 
-from_file = "storypoint.csv"
+# from_file = "storypoint.csv"
 
 def read(file):
     df = pd.read_csv(file)
@@ -33,8 +33,9 @@ def draw(f):
     #plt.show()
 
 if __name__ == '__main__':
-    if(len(sys.argv) > 1) :
-        from_file = sys.argv[1]
-    df = read(from_file)
-    f = select(df)
-    draw(f)
+    if(len(sys.argv) <= 1) :
+        print("command your.csv")
+    else:  
+        df = read(from_file)
+        f = select(df)
+        draw(f)
