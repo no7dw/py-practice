@@ -1,10 +1,11 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 #choose col
 
-from_file = "project.csv"
+# from_file = "project.csv"
 
 '''
     return dataframe
@@ -31,8 +32,11 @@ def draw(fn):
     #plt.show()
 
 if __name__ == '__main__':
-    if(len(sys.argv) > 1) :
+    if(len(sys.argv) <= 1) :
+        print("command your.csv")
+    else:        
         from_file = sys.argv[1]
-    df = read(from_file)
-    fn = select(df)
-    draw(fn)
+
+        df = read(from_file)
+        fn = select(df)
+        draw(fn)
