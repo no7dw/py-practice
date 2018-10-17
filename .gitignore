@@ -7,3 +7,4 @@ panda/*.csv
 .idea
 .DS_Store
 .vscode
+*env
