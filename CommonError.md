@@ -39,3 +39,15 @@ settings.json  设置成这样就好了
 
   
 
+# Python  SyntaxError: Non-ASCII character '\xe5' in file
+文件最开头加入一行
+```
+  # -*- coding: UTF-8 -*-
+```
+or
+```
+  #coding=utf-8
+```
+
+
+[Python“Non-ASCII character 'xe5' in file”报错问题](https://blog.csdn.net/geekmanong/article/details/50514984)
