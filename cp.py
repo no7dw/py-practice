@@ -19,4 +19,4 @@ print("a",a)
 print("b",b)
 print("c",c)
 
-[ref link](https://iaman.actor/blog/2016/04/17/copy-in-python)
+#[ref link](https://iaman.actor/blog/2016/04/17/copy-in-python)
