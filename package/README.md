@@ -16,7 +16,7 @@ f2.py
 
 ```
     def show():
-        print("in pkg f2.show()")
+        print("in pkg f.show()")
 ```
 
 __init__.py
@@ -71,4 +71,23 @@ in pkg f.show()
 
 ### 升级包
 
+修改下源码
+f2.py
+
+```
+    def show():
+        print("in pkg f2.show()")
+```
+
+重新 build, sdist ,install ,setup
+
+退出python 终端，不然仍然使用cache 里面的1.0包版本
+
+```
+    >>> from wadepypk import f1,f2
+    >>> f2.show()
+    in pkg f2.show()
+```
+
+原来的"in pkg f.show()" 已经改为 "in pkg f2.show()"
 
