@@ -59,6 +59,8 @@ __init__.py
 
 则安装到本地的目录里面 
 
+当然也可以在作为git 项目直接upload 到git repo，然后再git clone 去分发
+
 python具体代码调用 
 
 ```
