@@ -1,7 +1,7 @@
 ### pylint 
 
-问题：打开py 文件 提示
-vscode "Path to the pylint linter is invalid" 
+问题：
+打开py 文件 提示 vscode "Path to the pylint linter is invalid" 
 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pylint
 或者提示：
 vscode "Path to the pylint linter is invalid"
