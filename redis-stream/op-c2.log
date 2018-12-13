@@ -1,0 +1,19 @@
+Last login: Tue Nov 20 08:49:37 on ttys011
+dengwei@RMBAP:~/projects/github/no7dw/py-practice/temp/stream$ redis-cli
+127.0.0.1:6379> xread block 0 STREAMS forr $
+1) 1) "forr"
+   2) 1) 1) "1542678473233-0"
+         2) 1) "f5"
+            2) "5"
+            3) "f6"
+            4) "600"
+(50.35s)
+127.0.0.1:6379> xread block 0 STREAMS forr $
+1) 1) "forr"
+   2) 1) 1) "1542678573053-0"
+         2) 1) "f5"
+            2) "5"
+            3) "f8"
+            4) "800"
+(7.59s)
+127.0.0.1:6379>

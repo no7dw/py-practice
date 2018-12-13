@@ -1,0 +1,21 @@
+Last login: Tue Nov 20 09:47:18 on ttys014
+dengwei@RMBAP:~/projects/github/no7dw/py-practice/temp/stream$ xredis-cli
+-bash: xredis-cli: command not found
+dengwei@RMBAP:~/projects/github/no7dw/py-practice/temp/stream$ redis-cli
+127.0.0.1:6379> xread block 0 STREAMS forr $
+1) 1) "forr"
+   2) 1) 1) "1542678544241-0"
+         2) 1) "f5"
+            2) "5"
+            3) "f7"
+            4) "700"
+(8.56s)
+127.0.0.1:6379> xread block 0 STREAMS forr $
+1) 1) "forr"
+   2) 1) 1) "1542678573053-0"
+         2) 1) "f5"
+            2) "5"
+            3) "f8"
+            4) "800"
+(9.47s)
+127.0.0.1:6379>
