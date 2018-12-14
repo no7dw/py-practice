@@ -93,3 +93,8 @@ f2.py
 
 原来的"in pkg f.show()" 已经改为 "in pkg f2.show()"
 
+
+### pip install 
+
+    可以按照直接是git的地址 
+    pip install https://github.com/ilex/aiomotorengine/archive/master.zip
