@@ -1,3 +1,3 @@
 class ProductionClass:
-    def method(self):
+    def func1(self):
         return 1
