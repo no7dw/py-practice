@@ -31,4 +31,3 @@ loop.run_until_complete(main())
 e = time.time()
 
 print(e-s)
-#print(len(result),result[0])
