@@ -92,10 +92,13 @@ all Node.js knowledge is in ()
 		    - $python3 -m unittest discover test # test 目录自发现
 		    - mock(nock)
 		
+		```
 			from mock import MagicMock
 			thing = ProductionClass()
 			thing.method = MagicMock(return_value=3)
 			self.assertEqual(thing.method(), 3)
+		```
+		
 	- py.test(mocha)  -- 3rd testing framework
 		- run command
 			
