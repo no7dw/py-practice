@@ -145,3 +145,22 @@ from python2.7 to python3
 	`
 		2to3 2.py -w 
 	`
+# property annotation
+    
+    ```
+        class Human():
+            def __init__():
+                pass 
+
+            @property 
+            def name(self):
+                pass
+
+    ```
+
+    相当于为了实现作为属性的访问：
+    
+    ```
+        h =  Human()
+        print(h.name())
+    ```
