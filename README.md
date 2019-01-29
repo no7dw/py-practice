@@ -149,12 +149,12 @@ from python2.7 to python3
     
     ```
         class Human():
-            def __init__():
+            def __init__(self):
                 pass 
 
             @property 
             def name(self):
-                pass
+                return "Wade"
 
     ```
 
@@ -162,5 +162,6 @@ from python2.7 to python3
     
     ```
         h =  Human()
-        print(h.name())
+        #print(h.name()) #instead of this
+		print(h.name)
     ```
