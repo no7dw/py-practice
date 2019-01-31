@@ -16,9 +16,9 @@ def sub():
         msg = p.get_message()
         if msg :
             re = time.time()
-            print("receive", re) 
+            #print("receive", re) 
             cont = msg['data']
-            print(cont)
+            #print(cont)
             st = float(cont)
             print('diff', re-st)
 
