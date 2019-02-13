@@ -1,6 +1,8 @@
 import redis   
 import time
+import sys
 r = redis.Redis(host='localhost', port=6379)   
+
 
 def get_set():
     r.set('name', 'wade')  
@@ -15,20 +17,23 @@ def sub():
     while PAUSE :
         msg = p.get_message()
         if msg :
-            print("receive",time.time()) 
+            re = time.time()
             cont = msg['data']
+            st = float(cont)
+            print('sub diff', re-st)
 
 def pub():
     s = time.time() 
-    print("before publish",s) 
-    #r.publish('channel1','helloworld')
     r.publish('channel1', s)
     e = time.time() 
-    print("after publish", e) 
-    print("diff", e-s) 
+    print("pub diff", e-s) 
     
 
 if __name__ == '__main__':
-    #sub()
-    pub()
+    if(1 == len(sys.argv)):
+        print("usage:\npython3 p.py s \npython3 p.py p")
+    elif ('s' == sys.argv[1]):
+        sub()
+    else:        
+        pub()
     
