@@ -48,6 +48,8 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
     1622524817 total runs (avg latency: 0.0616 microseconds / 61.63 nanoseconds per run).
     Worst run took 218765x longer than the average latency.
    
+    这个数据含义：机器的perf最糟糕的0.013 ms （millseconds），与redis 无关，是机器本身的问题
+
   - [优化](https://redis.io/topics/latency)：
     - 使用本地的redis（已经是）
     - disable AOF 
@@ -59,6 +61,26 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
 
   其他貌似不是要紧，这样不输出RDB文件后，publish 提升了 0.001621 s -- 1.6ms , subscript 0.002651 s -- 2.6ms ,perf: publish： 6.4ms, subscript :5.1ms
 
+运行的命令：
+
 ```
 for i in {1..19};do python3 p.py p ; done
 ```
+
+
+但[这里](https://bravenewgeek.com/benchmarking-message-queue-latency/)显示一些mq的延时(for 1KB data, 99.99% percentile 点数据):
+RabbitMQ  12ms 
+kafka 13 ms v0.9
+redis 1.5ms
+nat 1.2ms
+
+这个数据与实际测试有出入，可能是受限于python本身
+
+
+more:
+
+https://stackoverflow.com/questions/36183606/whats-google-cloud-pub-sub-latency
+
+https://redis.io/topics/persistence
+
+https://stackoverflow.com/questions/10557826/node-js-socket-io-redis-pub-sub-high-volume-low-latency-difficulties/11023625#11023625
