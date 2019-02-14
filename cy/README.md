@@ -42,9 +42,18 @@ gcc -bundle -undefined dynamic_lookup -L/anaconda3/lib -arch x86_64 -L/anaconda3
 [Compile main Python program using Cython](https://stackoverflow.com/questions/5105482/compile-main-python-program-using-cython
 但 过程需要注意自己gcc， 注意 -I 对应的include 头文件 ，ld 对应的lib。比较麻烦，并且要最好弄个virtual env 来搞。
 
+### 多个文件夹/包的处理
 
+```
+  from distutils.core import setup
+  from Cython.Build import cythonize
+
+  setup(
+      ext_modules = cythonize(["folder1/file1.py", "folder2/file2.py"])
+  )
+```
 
 [Cython的用法以及填坑姿势](https://blog.csdn.net/feijiges/article/details/77932382
-
-[Creating an executable file using Cython
-](http://masnun.rocks/2016/10/01/creating-an-executable-file-using-cython/
+[Creating an executable file using Cython](http://masnun.rocks/2016/10/01/creating-an-executable-file-using-cython/)
+[Cython docs](http://docs.cython.org/en/latest/src/quickstart/build.html)
+[Cython setup.py for multiple .py and multiple folder](https://stackoverflow.com/questions/21826137/cython-setup-py-for-several-pyx)
