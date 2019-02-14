@@ -61,6 +61,10 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
 
   其他貌似不是要紧，这样不输出RDB文件后，publish 提升了 0.001621 s -- 1.6ms , subscript 0.002651 s -- 2.6ms ,perf: publish： 6.4ms, subscript :5.1ms
 
+
+[测试appendonly-no明细数据](https://docs.google.com/spreadsheets/d/1dbzBD_SjRdstW78hMZrI2jdNE2LTrIVgDhfJ1F5bGOc/edit#gid=0)
+
+
 运行的命令：
 
 ```
@@ -76,11 +80,13 @@ nat 1.2ms
 
 这个数据与实际测试有出入，可能是受限于python本身
 
+进一步使用cython，提升9~10%
 
-more:
+[测试cython明细数据](https://docs.google.com/spreadsheets/d/1dbzBD_SjRdstW78hMZrI2jdNE2LTrIVgDhfJ1F5bGOc/edit#gid=1845947842)
 
-https://stackoverflow.com/questions/36183606/whats-google-cloud-pub-sub-latency
 
-https://redis.io/topics/persistence
+more ref:
 
-https://stackoverflow.com/questions/10557826/node-js-socket-io-redis-pub-sub-high-volume-low-latency-difficulties/11023625#11023625
+[whats-google-cloud-pub-sub-latency](https://stackoverflow.com/questions/36183606/whats-google-cloud-pub-sub-latency)
+[redis persistence](https://redis.io/topics/persistence)
+[node-js-socket-io-redis-pub-sub-high-volume-low-latency-difficulties](https://stackoverflow.com/questions/10557826/node-js-socket-io-redis-pub-sub-high-volume-low-latency-difficulties/11023625#11023625)

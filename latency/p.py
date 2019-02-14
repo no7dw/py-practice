@@ -1,6 +1,6 @@
 import redis   
 import time
-import sys
+#import sys
 r = redis.Redis(host='localhost', port=6379)   
 
 
@@ -29,11 +29,11 @@ def pub():
     print("pub diff", e-s) 
     
 
-if __name__ == '__main__':
-    if(1 == len(sys.argv)):
-        print("usage:\npython3 p.py s \npython3 p.py p")
-    elif ('s' == sys.argv[1]):
-        sub()
-    else:        
-        pub()
+#if __name__ == '__main__':
+#    if(1 == len(sys.argv)):
+#        print("usage:\npython3 p.py s \npython3 p.py p")
+#    elif ('s' == sys.argv[1]):
+#        sub()
+#    else:        
+#        pub()
     
