@@ -58,8 +58,8 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
    redis-server --save "" --appendonly no
 ```
 
-
-  其他貌似不是要紧，这样不输出RDB文件后，publish 提升了 0.001621 s -- 1.6ms , subscript 0.002651 s -- 2.6ms ,perf: publish： 6.4ms, subscript :5.1ms
+  之前是6~7 ms， 现在5~6 ms
+  其他貌似不是要紧，这样不输出RDB文件后，publish 提升了 1.6ms , subscript 2.6ms ,perf: publish： 6.4ms, subscript :5.1ms
 
 
 [测试appendonly-no明细数据](https://docs.google.com/spreadsheets/d/1dbzBD_SjRdstW78hMZrI2jdNE2LTrIVgDhfJ1F5bGOc/edit#gid=0)
@@ -68,7 +68,7 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
 运行的命令：
 
 ```
-for i in {1..19};do python3 p.py p ; done
+    for i in {1..19};do python3 p.py p ; done
 ```
 
 
@@ -80,7 +80,8 @@ nat 1.2ms
 
 这个数据与实际测试有出入，可能是受限于python本身
 
-进一步使用cython，提升9~10%
+进一步使用cython，提升9~10%, 去到 4.8ms
+之前是5~6 ms， 现在4~5 ms
 
 [测试cython明细数据](https://docs.google.com/spreadsheets/d/1dbzBD_SjRdstW78hMZrI2jdNE2LTrIVgDhfJ1F5bGOc/edit#gid=1845947842)
 
