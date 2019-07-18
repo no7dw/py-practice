@@ -47,8 +47,16 @@ background: 在做高频交易系统 HFT，用了redis 做pub sub 通知，发�
     
     1622524817 total runs (avg latency: 0.0616 microseconds / 61.63 nanoseconds per run).
     Worst run took 218765x longer than the average latency.
-   
+ 
+
     这个数据含义：机器的perf最糟糕的0.013 ms （millseconds），与redis 无关，是机器本身的问题
+
+`  
+   redis-cli --latency
+    min: 0, max: 78, avg: 0.63 (21920 samples)
+`
+单位：milliseconds
+
 
   - [优化](https://redis.io/topics/latency)：
     - 使用本地的redis（已经是）
