@@ -98,3 +98,23 @@ f2.py
 
     可以按照直接是git的地址 
     pip install https://github.com/ilex/aiomotorengine/archive/master.zip
+
+### Error FAQ
+
+   安装包的时候，需要扫描需要的依赖, 使用pip freeze > requirements.txt
+   但他包含了很多当前项目不需要的依赖
+   因此使用以下方法简化：
+
+```
+    pip(3) install pipreqs
+    #then
+    pipreqs path/to/project
+```
+    
+    另外有时：requirements.txt 里面的依赖包版本可能找不到或者报错，我们需要忽略错误的时候，pip 没有提供ignore-error 之类的选项
+    使用以下方法进行逐个安装解决：
+
+```
+    cat requirements.txt | xargs -n 1 pip install
+```
+
